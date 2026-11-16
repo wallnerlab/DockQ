@@ -1,0 +1,100 @@
+name: Rust release artifacts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Linux x86_64
+            runner: ubuntu-22.04
+            platform: linux-x86_64
+          - label: macOS x86_64
+            runner: macos-15-intel
+            platform: macos-x86_64
+          - label: Windows x86_64
+            runner: windows-2022
+            platform: windows-x86_64
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install stable Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+      - name: Check formatting
+        working-directory: rust
+        run: cargo fmt --all -- --check
+      - name: Lint
+        working-directory: rust
+        run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - name: Test
+        working-directory: rust
+        run: cargo test --locked --all-targets --all-features
+      - name: Build release executable
+        run: cargo build --locked --release --manifest-path rust/Cargo.toml
+      - name: Generate third-party license notices
+        run: python scripts/generate_third_party_licenses.py --output THIRD_PARTY_LICENSES.txt
+
+      - name: Smoke check and assemble bundle (Unix)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          set -euo pipefail
+          help_output="$(rust/target/release/DockQ --help 2>&1)"
+          test -n "$help_output"
+          score_output="$(rust/target/release/DockQ examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb --mapping AB:AB --short)"
+          printf '%s\n' "$score_output"
+          grep -q 'DockQ 0.943' <<<"$score_output"
+          bundle="dist/DockQ-${{ matrix.platform }}"
+          mkdir -p "$bundle"
+          cp rust/target/release/DockQ "$bundle/DockQ"
+          cp LICENSE rust/README.md THIRD_PARTY_LICENSES.txt "$bundle/"
+          printf 'commit=%s\nrustc=%s\nplatform=%s\n' \
+            "$(git rev-parse HEAD)" "$(rustc --version)" "${{ matrix.platform }}" \
+            > "$bundle/BUILD-INFO.txt"
+          (cd "$bundle" && shasum -a 256 DockQ README.md LICENSE THIRD_PARTY_LICENSES.txt BUILD-INFO.txt > SHA256SUMS.txt)
+          tar -czf "$bundle.tar.gz" -C dist "DockQ-${{ matrix.platform }}"
+
+      - name: Smoke check and assemble bundle (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $helpOutput = (& rust/target/release/DockQ.exe --help 2>&1 | Out-String)
+          if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($helpOutput)) { throw "DockQ --help failed" }
+          $scoreOutput = (& rust/target/release/DockQ.exe examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb --mapping AB:AB --short | Out-String)
+          if ($LASTEXITCODE -ne 0 -or $scoreOutput -notmatch 'DockQ 0\.943') { throw "Scoring smoke test failed: $scoreOutput" }
+          Write-Output $scoreOutput
+          $bundle = 'dist/DockQ-${{ matrix.platform }}'
+          New-Item -ItemType Directory -Force -Path $bundle | Out-Null
+          Copy-Item rust/target/release/DockQ.exe "$bundle/DockQ.exe"
+          Copy-Item LICENSE, rust/README.md, THIRD_PARTY_LICENSES.txt $bundle
+          @("commit=$(git rev-parse HEAD)", "rustc=$(rustc --version)", "platform=${{ matrix.platform }}") |
+            Set-Content -Encoding utf8 "$bundle/BUILD-INFO.txt"
+          $lines = Get-ChildItem $bundle -File | Where-Object Name -ne 'SHA256SUMS.txt' |
+            Sort-Object Name | ForEach-Object {
+              $hash = (Get-FileHash -Algorithm SHA256 $_.FullName).Hash.ToLowerInvariant()
+              "$hash  $($_.Name)"
+            }
+          $lines | Set-Content -Encoding ascii "$bundle/SHA256SUMS.txt"
+          Compress-Archive -Path $bundle -DestinationPath "$bundle.zip" -Force
+
+      - name: Upload release archive
+        uses: actions/upload-artifact@v6
+        with:
+          name: DockQ-${{ matrix.platform }}
+          path: dist/DockQ-${{ matrix.platform }}.*
+          if-no-files-found: error
+          retention-days: 14

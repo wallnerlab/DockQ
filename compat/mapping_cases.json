@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "name": "model_surplus_homomers",
+      "model": [
+        "A",
+        "A",
+        "C"
+      ],
+      "native": [
+        "A",
+        "A"
+      ],
+      "expected": {
+        "ok": true,
+        "mappings": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "native_surplus_reverse",
+      "model": [
+        "A",
+        "A"
+      ],
+      "native": [
+        "A",
+        "A",
+        "A"
+      ],
+      "expected": {
+        "ok": true,
+        "mappings": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "allowed_mismatch",
+      "model": [
+        "AC",
+        "AA"
+      ],
+      "native": [
+        "AD",
+        "AA"
+      ],
+      "allowed_mismatches": 1,
+      "expected": {
+        "ok": true,
+        "mappings": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "fixed_pair_and_subset",
+      "model": [
+        "A",
+        "A",
+        "C",
+        "X"
+      ],
+      "native": [
+        "A",
+        "A",
+        "C"
+      ],
+      "fixed": [
+        [
+          2,
+          2
+        ]
+      ],
+      "model_selected": [
+        0,
+        1,
+        2
+      ],
+      "native_selected": [
+        0,
+        1,
+        2
+      ],
+      "expected": {
+        "ok": true,
+        "mappings": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "hetero_identity",
+      "model": [
+        {
+          "sequence": "A"
+        },
+        {
+          "sequence": "HEM",
+          "hetero": "HEM"
+        },
+        {
+          "sequence": "LIG",
+          "hetero": "LIG"
+        }
+      ],
+      "native": [
+        {
+          "sequence": "A"
+        },
+        {
+          "sequence": "HEM",
+          "hetero": "HEM"
+        }
+      ],
+      "expected": {
+        "ok": true,
+        "mappings": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "incompatible_chain",
+      "model": [
+        {
+          "sequence": "HEM",
+          "hetero": "HEM"
+        }
+      ],
+      "native": [
+        {
+          "sequence": "LIG",
+          "hetero": "LIG"
+        }
+      ],
+      "expected": {
+        "ok": false,
+        "mappings": []
+      }
+    },
+    {
+      "name": "no_injective_assignment",
+      "model": [
+        "A",
+        "X"
+      ],
+      "native": [
+        "A",
+        "A"
+      ],
+      "expected": {
+        "ok": true,
+        "mappings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+  max JSON abs differences: DockQ=8.95861977e-07, F1=0, GlobalDockQ=5.34697825e-07, LRMSD=4.44393463e-05, best_dockq=1.60409347e-06, fnat=0, fnonnat=0, iRMSD=1.5645046e-06
+1a2k-auto: Python 0.37s (57.8 MB); Rust 0.07s (14.6 MB) PASS
+  max JSON abs differences: DockQ=8.95861977e-07, F1=0, GlobalDockQ=5.34697825e-07, LRMSD=4.44393463e-05, best_dockq=1.60409347e-06, fnat=0, fnonnat=0, iRMSD=1.5645046e-06
+1a2k-numbering: Python 0.36s (58.1 MB); Rust 0.07s (14.6 MB) PASS
+  max JSON abs differences: DockQ=8.86068996e-13, F1=0, GlobalDockQ=3.86024546e-13, LRMSD=2.17102292e-06, best_dockq=1.54409818e-12, fnat=0, fnonnat=0, iRMSD=2.42067952e-06
+dimer-short: Python 0.45s (67.1 MB); Rust 0.08s (14.6 MB) PASS
+  max JSON abs differences: DockQ=3.63886959e-07, F1=0, GlobalDockQ=3.63886959e-07, LRMSD=2.65725991e-05, best_dockq=3.63886959e-07, fnat=0, fnonnat=0, iRMSD=1.13335268e-07
+sequence-mismatches: Python 0.41s (60.0 MB); Rust 0.05s (14.6 MB) PASS
+  max JSON abs differences: DockQ=2.3616503e-07, F1=0, GlobalDockQ=6.94313831e-08, LRMSD=1.15629115e-05, best_dockq=1.11090213e-06, fnat=0, fnonnat=0, iRMSD=2.00776496e-06
+1exb-short: Python 6.76s (93.2 MB); Rust 0.87s (14.6 MB) FAIL (1 differences)
+  normalized text differs:
+  --- Python
+  +++ Rust
+  @@ -11,7 +11,7 @@
+   DockQ 0.477 iRMSD 1.425 LRMSD 3.994 fnat 0.087 fnonnat 0.000 F1 0.160 clashes 0 mapping CG:DH examples/1EXB_r_l_b.model.pdb C G -> examples/1EXB_r_l_b.pdb D H
+   DockQ 0.775 iRMSD 0.711 LRMSD 2.831 fnat 0.609 fnonnat 0.125 F1 0.718 clashes 0 mapping DH:CG examples/1EXB_r_l_b.model.pdb D H -> examples/1EXB_r_l_b.pdb C G
+   DockQ 0.914 iRMSD 0.547 LRMSD 3.426 fnat 1.000 fnonnat 0.000 F1 1.000 clashes 0 mapping DE:CF examples/1EXB_r_l_b.model.pdb D E -> examples/1EXB_r_l_b.pdb C F
+  -DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+  +DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FG:EH examples/1EXB_r_l_b.model.pdb F G -> examples/1EXB_r_l_b.pdb E H
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping HE:GF examples/1EXB_r_l_b.model.pdb H E -> examples/1EXB_r_l_b.pdb G F
+   DockQ 1.000 iRMSD 0.001 LRMSD 0.001 fnat 1.000 fnonnat 0.024 F1 0.988 clashes 0 mapping EG:FH examples/1EXB_r_l_b.model.pdb E G -> examples/1EXB_r_l_b.pdb F H
+  KNOWN BASELINE QUIRK: nested chain_map differs in 14 results; top-level best_mapping agrees
+  max JSON abs differences: DockQ=2.3616503e-07, F1=0, GlobalDockQ=6.94313831e-08, LRMSD=1.15629115e-05, best_dockq=1.11090213e-06, fnat=0, fnonnat=0, iRMSD=2.00776496e-06
+1exb-partial: Python 1.24s (89.0 MB); Rust 0.41s (14.6 MB) FAIL (1 differences)
+  normalized text differs:
+  --- Python
+  +++ Rust
+  @@ -11,7 +11,7 @@
+   DockQ 0.477 iRMSD 1.425 LRMSD 3.994 fnat 0.087 fnonnat 0.000 F1 0.160 clashes 0 mapping CG:DH examples/1EXB_r_l_b.model.pdb C G -> examples/1EXB_r_l_b.pdb D H
+   DockQ 0.775 iRMSD 0.711 LRMSD 2.831 fnat 0.609 fnonnat 0.125 F1 0.718 clashes 0 mapping DH:CG examples/1EXB_r_l_b.model.pdb D H -> examples/1EXB_r_l_b.pdb C G
+   DockQ 0.914 iRMSD 0.547 LRMSD 3.426 fnat 1.000 fnonnat 0.000 F1 1.000 clashes 0 mapping DE:CF examples/1EXB_r_l_b.model.pdb D E -> examples/1EXB_r_l_b.pdb C F
+  -DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+  +DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FG:EH examples/1EXB_r_l_b.model.pdb F G -> examples/1EXB_r_l_b.pdb E H
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping HE:GF examples/1EXB_r_l_b.model.pdb H E -> examples/1EXB_r_l_b.pdb G F
+   DockQ 1.000 iRMSD 0.001 LRMSD 0.001 fnat 1.000 fnonnat 0.024 F1 0.988 clashes 0 mapping EG:FH examples/1EXB_r_l_b.model.pdb E G -> examples/1EXB_r_l_b.pdb F H
+  KNOWN BASELINE QUIRK: nested chain_map differs in 2 results; top-level best_mapping agrees
+  max JSON abs differences: DockQ=6.13287199e-13, F1=0, GlobalDockQ=4.75619544e-13, LRMSD=7.85545567e-07, best_dockq=9.51239087e-13, fnat=0, fnonnat=0, iRMSD=2.03422219e-06
+1exb-native-subset: Python 0.74s (80.1 MB); Rust 0.21s (14.6 MB) PASS
+  max JSON abs differences: DockQ=2.3616503e-07, F1=0, GlobalDockQ=6.94615275e-08, LRMSD=1.15629115e-05, best_dockq=1.11138444e-06, fnat=0, fnonnat=0, iRMSD=2.48580517e-06
+1exb-complete: Python 0.75s (87.2 MB); Rust 0.10s (14.6 MB) FAIL (1 differences)
+  normalized text differs:
+  --- Python
+  +++ Rust
+  @@ -14,4 +14,4 @@
+   DockQ 1.000 iRMSD 0.001 LRMSD 0.001 fnat 1.000 fnonnat 0.024 F1 0.988 clashes 0 mapping EG:FH examples/1EXB_r_l_b.model.pdb E G -> examples/1EXB_r_l_b.pdb F H
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping EH:FG examples/1EXB_r_l_b.model.pdb E H -> examples/1EXB_r_l_b.pdb F G
+   DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FG:EH examples/1EXB_r_l_b.model.pdb F G -> examples/1EXB_r_l_b.pdb E H
+  -DockQ 0.992 iRMSD 0.001 LRMSD 0.000 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+  +DockQ 0.992 iRMSD 0.001 LRMSD 0.001 fnat 0.976 fnonnat 0.000 F1 0.988 clashes 0 mapping FH:EG examples/1EXB_r_l_b.model.pdb F H -> examples/1EXB_r_l_b.pdb E G
+  max JSON abs differences: DockQ=2.74159248e-07, F1=0, GlobalDockQ=2.74159248e-07, LRMSD=1.32973302e-05, best_dockq=2.74159248e-07, fnat=0, fnonnat=0, iRMSD=5.20068607e-08
+1exb-explicit: Python 0.36s (57.7 MB); Rust 0.04s (14.6 MB) PASS
+  max JSON abs differences: DockQ=2.74159248e-07, F1=0, GlobalDockQ=2.74159248e-07, LRMSD=1.32973302e-05, best_dockq=2.74159248e-07, fnat=0, fnonnat=0, iRMSD=5.20068607e-08
+1exb-cif-gzip: Python 0.41s (60.7 MB); Rust 0.06s (14.6 MB) PASS
+  max JSON abs differences: DockQ=1.46058499e-08, F1=0, GlobalDockQ=1.46058499e-08, LRMSD=1.56993407e-06, best_dockq=1.46058499e-08, fnat=0, fnonnat=0, iRMSD=5.73396697e-09
+peptide: Python 0.47s (61.5 MB); Rust 0.04s (14.6 MB) PASS
+  KNOWN BASELINE QUIRK: nested chain_map differs in 2 results; top-level best_mapping agrees
+  max JSON abs differences: DockQ=1.86364591e-07, F1=0, GlobalDockQ=5.66377629e-08, LRMSD=1.61358476e-05, best_dockq=2.26551052e-07, fnat=0, fnonnat=0, iRMSD=1.55800192e-07
+small-molecule: Python 0.65s (67.1 MB); Rust 0.06s (14.6 MB) PASS
+fallback-1a2k: Python 0.96s (102.1 MB); Rust 0.03s (14.6 MB) PASS
+fallback-1a2k-numbering: Python 0.93s (103.1 MB); Rust 0.06s (14.6 MB) PASS
+  Python error: ERROR:root:Could not find interfaces in the native model. Please double check the inputs or select different chains with the --mapping flag.
+  Rust error:   Error: could not find interfaces in the native model; check inputs and --mapping
+no-interface: Python 0.30s (46.1 MB); Rust 0.00s (14.6 MB) PASS
+
+CLI differential: 12/15 cases passed; float tolerances RMSD=0.0001, other=1e-05

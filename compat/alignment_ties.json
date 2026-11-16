@@ -1,0 +1,6305 @@
+{
+  "schema_version": 1,
+  "alignments": [
+    {
+      "model": "A",
+      "native": "A",
+      "model_aligned": "A",
+      "native_aligned": "A",
+      "matches": "|"
+    },
+    {
+      "model": "A",
+      "native": "C",
+      "model_aligned": "A",
+      "native_aligned": "C",
+      "matches": "."
+    },
+    {
+      "model": "A",
+      "native": "AA",
+      "model_aligned": "-A",
+      "native_aligned": "AA",
+      "matches": " |"
+    },
+    {
+      "model": "A",
+      "native": "AC",
+      "model_aligned": "A-",
+      "native_aligned": "AC",
+      "matches": "| "
+    },
+    {
+      "model": "A",
+      "native": "CA",
+      "model_aligned": "-A",
+      "native_aligned": "CA",
+      "matches": " |"
+    },
+    {
+      "model": "A",
+      "native": "CC",
+      "model_aligned": "-A",
+      "native_aligned": "CC",
+      "matches": " ."
+    },
+    {
+      "model": "A",
+      "native": "AAA",
+      "model_aligned": "--A",
+      "native_aligned": "AAA",
+      "matches": "  |"
+    },
+    {
+      "model": "A",
+      "native": "AAC",
+      "model_aligned": "A--",
+      "native_aligned": "AAC",
+      "matches": "|  "
+    },
+    {
+      "model": "A",
+      "native": "ACA",
+      "model_aligned": "--A",
+      "native_aligned": "ACA",
+      "matches": "  |"
+    },
+    {
+      "model": "A",
+      "native": "ACC",
+      "model_aligned": "A--",
+      "native_aligned": "ACC",
+      "matches": "|  "
+    },
+    {
+      "model": "A",
+      "native": "CAA",
+      "model_aligned": "--A",
+      "native_aligned": "CAA",
+      "matches": "  |"
+    },
+    {
+      "model": "A",
+      "native": "CAC",
+      "model_aligned": "-A-",
+      "native_aligned": "CAC",
+      "matches": " | "
+    },
+    {
+      "model": "A",
+      "native": "CCA",
+      "model_aligned": "--A",
+      "native_aligned": "CCA",
+      "matches": "  |"
+    },
+    {
+      "model": "A",
+      "native": "CCC",
+      "model_aligned": "--A",
+      "native_aligned": "CCC",
+      "matches": "  ."
+    },
+    {
+      "model": "A",
+      "native": "AAAA",
+      "model_aligned": "---A",
+      "native_aligned": "AAAA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "AAAC",
+      "model_aligned": "A---",
+      "native_aligned": "AAAC",
+      "matches": "|   "
+    },
+    {
+      "model": "A",
+      "native": "AACA",
+      "model_aligned": "---A",
+      "native_aligned": "AACA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "AACC",
+      "model_aligned": "A---",
+      "native_aligned": "AACC",
+      "matches": "|   "
+    },
+    {
+      "model": "A",
+      "native": "ACAA",
+      "model_aligned": "---A",
+      "native_aligned": "ACAA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "ACAC",
+      "model_aligned": "A---",
+      "native_aligned": "ACAC",
+      "matches": "|   "
+    },
+    {
+      "model": "A",
+      "native": "ACCA",
+      "model_aligned": "---A",
+      "native_aligned": "ACCA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "ACCC",
+      "model_aligned": "A---",
+      "native_aligned": "ACCC",
+      "matches": "|   "
+    },
+    {
+      "model": "A",
+      "native": "CAAA",
+      "model_aligned": "---A",
+      "native_aligned": "CAAA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "CAAC",
+      "model_aligned": "--A-",
+      "native_aligned": "CAAC",
+      "matches": "  | "
+    },
+    {
+      "model": "A",
+      "native": "CACA",
+      "model_aligned": "---A",
+      "native_aligned": "CACA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "CACC",
+      "model_aligned": "-A--",
+      "native_aligned": "CACC",
+      "matches": " |  "
+    },
+    {
+      "model": "A",
+      "native": "CCAA",
+      "model_aligned": "---A",
+      "native_aligned": "CCAA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "CCAC",
+      "model_aligned": "--A-",
+      "native_aligned": "CCAC",
+      "matches": "  | "
+    },
+    {
+      "model": "A",
+      "native": "CCCA",
+      "model_aligned": "---A",
+      "native_aligned": "CCCA",
+      "matches": "   |"
+    },
+    {
+      "model": "A",
+      "native": "CCCC",
+      "model_aligned": "---A",
+      "native_aligned": "CCCC",
+      "matches": "   ."
+    },
+    {
+      "model": "C",
+      "native": "A",
+      "model_aligned": "C",
+      "native_aligned": "A",
+      "matches": "."
+    },
+    {
+      "model": "C",
+      "native": "C",
+      "model_aligned": "C",
+      "native_aligned": "C",
+      "matches": "|"
+    },
+    {
+      "model": "C",
+      "native": "AA",
+      "model_aligned": "-C",
+      "native_aligned": "AA",
+      "matches": " ."
+    },
+    {
+      "model": "C",
+      "native": "AC",
+      "model_aligned": "-C",
+      "native_aligned": "AC",
+      "matches": " |"
+    },
+    {
+      "model": "C",
+      "native": "CA",
+      "model_aligned": "C-",
+      "native_aligned": "CA",
+      "matches": "| "
+    },
+    {
+      "model": "C",
+      "native": "CC",
+      "model_aligned": "-C",
+      "native_aligned": "CC",
+      "matches": " |"
+    },
+    {
+      "model": "C",
+      "native": "AAA",
+      "model_aligned": "--C",
+      "native_aligned": "AAA",
+      "matches": "  ."
+    },
+    {
+      "model": "C",
+      "native": "AAC",
+      "model_aligned": "--C",
+      "native_aligned": "AAC",
+      "matches": "  |"
+    },
+    {
+      "model": "C",
+      "native": "ACA",
+      "model_aligned": "-C-",
+      "native_aligned": "ACA",
+      "matches": " | "
+    },
+    {
+      "model": "C",
+      "native": "ACC",
+      "model_aligned": "--C",
+      "native_aligned": "ACC",
+      "matches": "  |"
+    },
+    {
+      "model": "C",
+      "native": "CAA",
+      "model_aligned": "C--",
+      "native_aligned": "CAA",
+      "matches": "|  "
+    },
+    {
+      "model": "C",
+      "native": "CAC",
+      "model_aligned": "--C",
+      "native_aligned": "CAC",
+      "matches": "  |"
+    },
+    {
+      "model": "C",
+      "native": "CCA",
+      "model_aligned": "C--",
+      "native_aligned": "CCA",
+      "matches": "|  "
+    },
+    {
+      "model": "C",
+      "native": "CCC",
+      "model_aligned": "--C",
+      "native_aligned": "CCC",
+      "matches": "  |"
+    },
+    {
+      "model": "C",
+      "native": "AAAA",
+      "model_aligned": "---C",
+      "native_aligned": "AAAA",
+      "matches": "   ."
+    },
+    {
+      "model": "C",
+      "native": "AAAC",
+      "model_aligned": "---C",
+      "native_aligned": "AAAC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "AACA",
+      "model_aligned": "--C-",
+      "native_aligned": "AACA",
+      "matches": "  | "
+    },
+    {
+      "model": "C",
+      "native": "AACC",
+      "model_aligned": "---C",
+      "native_aligned": "AACC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "ACAA",
+      "model_aligned": "-C--",
+      "native_aligned": "ACAA",
+      "matches": " |  "
+    },
+    {
+      "model": "C",
+      "native": "ACAC",
+      "model_aligned": "---C",
+      "native_aligned": "ACAC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "ACCA",
+      "model_aligned": "--C-",
+      "native_aligned": "ACCA",
+      "matches": "  | "
+    },
+    {
+      "model": "C",
+      "native": "ACCC",
+      "model_aligned": "---C",
+      "native_aligned": "ACCC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "CAAA",
+      "model_aligned": "C---",
+      "native_aligned": "CAAA",
+      "matches": "|   "
+    },
+    {
+      "model": "C",
+      "native": "CAAC",
+      "model_aligned": "---C",
+      "native_aligned": "CAAC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "CACA",
+      "model_aligned": "C---",
+      "native_aligned": "CACA",
+      "matches": "|   "
+    },
+    {
+      "model": "C",
+      "native": "CACC",
+      "model_aligned": "---C",
+      "native_aligned": "CACC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "CCAA",
+      "model_aligned": "C---",
+      "native_aligned": "CCAA",
+      "matches": "|   "
+    },
+    {
+      "model": "C",
+      "native": "CCAC",
+      "model_aligned": "---C",
+      "native_aligned": "CCAC",
+      "matches": "   |"
+    },
+    {
+      "model": "C",
+      "native": "CCCA",
+      "model_aligned": "C---",
+      "native_aligned": "CCCA",
+      "matches": "|   "
+    },
+    {
+      "model": "C",
+      "native": "CCCC",
+      "model_aligned": "---C",
+      "native_aligned": "CCCC",
+      "matches": "   |"
+    },
+    {
+      "model": "AA",
+      "native": "A",
+      "model_aligned": "AA",
+      "native_aligned": "-A",
+      "matches": " |"
+    },
+    {
+      "model": "AA",
+      "native": "C",
+      "model_aligned": "AA",
+      "native_aligned": "-C",
+      "matches": " ."
+    },
+    {
+      "model": "AA",
+      "native": "AA",
+      "model_aligned": "AA",
+      "native_aligned": "AA",
+      "matches": "||"
+    },
+    {
+      "model": "AA",
+      "native": "AC",
+      "model_aligned": "AA",
+      "native_aligned": "AC",
+      "matches": "|."
+    },
+    {
+      "model": "AA",
+      "native": "CA",
+      "model_aligned": "AA",
+      "native_aligned": "CA",
+      "matches": ".|"
+    },
+    {
+      "model": "AA",
+      "native": "CC",
+      "model_aligned": "AA",
+      "native_aligned": "CC",
+      "matches": ".."
+    },
+    {
+      "model": "AA",
+      "native": "AAA",
+      "model_aligned": "-AA",
+      "native_aligned": "AAA",
+      "matches": " ||"
+    },
+    {
+      "model": "AA",
+      "native": "AAC",
+      "model_aligned": "AA-",
+      "native_aligned": "AAC",
+      "matches": "|| "
+    },
+    {
+      "model": "AA",
+      "native": "ACA",
+      "model_aligned": "A-A",
+      "native_aligned": "ACA",
+      "matches": "| |"
+    },
+    {
+      "model": "AA",
+      "native": "ACC",
+      "model_aligned": "A-A",
+      "native_aligned": "ACC",
+      "matches": "| ."
+    },
+    {
+      "model": "AA",
+      "native": "CAA",
+      "model_aligned": "-AA",
+      "native_aligned": "CAA",
+      "matches": " ||"
+    },
+    {
+      "model": "AA",
+      "native": "CAC",
+      "model_aligned": "-AA",
+      "native_aligned": "CAC",
+      "matches": " |."
+    },
+    {
+      "model": "AA",
+      "native": "CCA",
+      "model_aligned": "-AA",
+      "native_aligned": "CCA",
+      "matches": " .|"
+    },
+    {
+      "model": "AA",
+      "native": "CCC",
+      "model_aligned": "-AA",
+      "native_aligned": "CCC",
+      "matches": " .."
+    },
+    {
+      "model": "AA",
+      "native": "AAAA",
+      "model_aligned": "--AA",
+      "native_aligned": "AAAA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AA",
+      "native": "AAAC",
+      "model_aligned": "AA--",
+      "native_aligned": "AAAC",
+      "matches": "||  "
+    },
+    {
+      "model": "AA",
+      "native": "AACA",
+      "model_aligned": "A--A",
+      "native_aligned": "AACA",
+      "matches": "|  |"
+    },
+    {
+      "model": "AA",
+      "native": "AACC",
+      "model_aligned": "AA--",
+      "native_aligned": "AACC",
+      "matches": "||  "
+    },
+    {
+      "model": "AA",
+      "native": "ACAA",
+      "model_aligned": "--AA",
+      "native_aligned": "ACAA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AA",
+      "native": "ACAC",
+      "model_aligned": "A-A-",
+      "native_aligned": "ACAC",
+      "matches": "| | "
+    },
+    {
+      "model": "AA",
+      "native": "ACCA",
+      "model_aligned": "A--A",
+      "native_aligned": "ACCA",
+      "matches": "|  |"
+    },
+    {
+      "model": "AA",
+      "native": "ACCC",
+      "model_aligned": "A--A",
+      "native_aligned": "ACCC",
+      "matches": "|  ."
+    },
+    {
+      "model": "AA",
+      "native": "CAAA",
+      "model_aligned": "--AA",
+      "native_aligned": "CAAA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AA",
+      "native": "CAAC",
+      "model_aligned": "-AA-",
+      "native_aligned": "CAAC",
+      "matches": " || "
+    },
+    {
+      "model": "AA",
+      "native": "CACA",
+      "model_aligned": "-A-A",
+      "native_aligned": "CACA",
+      "matches": " | |"
+    },
+    {
+      "model": "AA",
+      "native": "CACC",
+      "model_aligned": "AA--",
+      "native_aligned": "CACC",
+      "matches": ".|  "
+    },
+    {
+      "model": "AA",
+      "native": "CCAA",
+      "model_aligned": "--AA",
+      "native_aligned": "CCAA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AA",
+      "native": "CCAC",
+      "model_aligned": "--AA",
+      "native_aligned": "CCAC",
+      "matches": "  |."
+    },
+    {
+      "model": "AA",
+      "native": "CCCA",
+      "model_aligned": "--AA",
+      "native_aligned": "CCCA",
+      "matches": "  .|"
+    },
+    {
+      "model": "AA",
+      "native": "CCCC",
+      "model_aligned": "--AA",
+      "native_aligned": "CCCC",
+      "matches": "  .."
+    },
+    {
+      "model": "AC",
+      "native": "A",
+      "model_aligned": "AC",
+      "native_aligned": "A-",
+      "matches": "| "
+    },
+    {
+      "model": "AC",
+      "native": "C",
+      "model_aligned": "AC",
+      "native_aligned": "-C",
+      "matches": " |"
+    },
+    {
+      "model": "AC",
+      "native": "AA",
+      "model_aligned": "AC",
+      "native_aligned": "AA",
+      "matches": "|."
+    },
+    {
+      "model": "AC",
+      "native": "AC",
+      "model_aligned": "AC",
+      "native_aligned": "AC",
+      "matches": "||"
+    },
+    {
+      "model": "AC",
+      "native": "CA",
+      "model_aligned": "AC",
+      "native_aligned": "CA",
+      "matches": ".."
+    },
+    {
+      "model": "AC",
+      "native": "CC",
+      "model_aligned": "AC",
+      "native_aligned": "CC",
+      "matches": ".|"
+    },
+    {
+      "model": "AC",
+      "native": "AAA",
+      "model_aligned": "-AC",
+      "native_aligned": "AAA",
+      "matches": " |."
+    },
+    {
+      "model": "AC",
+      "native": "AAC",
+      "model_aligned": "-AC",
+      "native_aligned": "AAC",
+      "matches": " ||"
+    },
+    {
+      "model": "AC",
+      "native": "ACA",
+      "model_aligned": "AC-",
+      "native_aligned": "ACA",
+      "matches": "|| "
+    },
+    {
+      "model": "AC",
+      "native": "ACC",
+      "model_aligned": "A-C",
+      "native_aligned": "ACC",
+      "matches": "| |"
+    },
+    {
+      "model": "AC",
+      "native": "CAA",
+      "model_aligned": "-AC",
+      "native_aligned": "CAA",
+      "matches": " |."
+    },
+    {
+      "model": "AC",
+      "native": "CAC",
+      "model_aligned": "-AC",
+      "native_aligned": "CAC",
+      "matches": " ||"
+    },
+    {
+      "model": "AC",
+      "native": "CCA",
+      "model_aligned": "AC-",
+      "native_aligned": "CCA",
+      "matches": ".| "
+    },
+    {
+      "model": "AC",
+      "native": "CCC",
+      "model_aligned": "-AC",
+      "native_aligned": "CCC",
+      "matches": " .|"
+    },
+    {
+      "model": "AC",
+      "native": "AAAA",
+      "model_aligned": "--AC",
+      "native_aligned": "AAAA",
+      "matches": "  |."
+    },
+    {
+      "model": "AC",
+      "native": "AAAC",
+      "model_aligned": "--AC",
+      "native_aligned": "AAAC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AC",
+      "native": "AACA",
+      "model_aligned": "-AC-",
+      "native_aligned": "AACA",
+      "matches": " || "
+    },
+    {
+      "model": "AC",
+      "native": "AACC",
+      "model_aligned": "A--C",
+      "native_aligned": "AACC",
+      "matches": "|  |"
+    },
+    {
+      "model": "AC",
+      "native": "ACAA",
+      "model_aligned": "AC--",
+      "native_aligned": "ACAA",
+      "matches": "||  "
+    },
+    {
+      "model": "AC",
+      "native": "ACAC",
+      "model_aligned": "--AC",
+      "native_aligned": "ACAC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AC",
+      "native": "ACCA",
+      "model_aligned": "AC--",
+      "native_aligned": "ACCA",
+      "matches": "||  "
+    },
+    {
+      "model": "AC",
+      "native": "ACCC",
+      "model_aligned": "A--C",
+      "native_aligned": "ACCC",
+      "matches": "|  |"
+    },
+    {
+      "model": "AC",
+      "native": "CAAA",
+      "model_aligned": "--AC",
+      "native_aligned": "CAAA",
+      "matches": "  |."
+    },
+    {
+      "model": "AC",
+      "native": "CAAC",
+      "model_aligned": "--AC",
+      "native_aligned": "CAAC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AC",
+      "native": "CACA",
+      "model_aligned": "-AC-",
+      "native_aligned": "CACA",
+      "matches": " || "
+    },
+    {
+      "model": "AC",
+      "native": "CACC",
+      "model_aligned": "-A-C",
+      "native_aligned": "CACC",
+      "matches": " | |"
+    },
+    {
+      "model": "AC",
+      "native": "CCAA",
+      "model_aligned": "--AC",
+      "native_aligned": "CCAA",
+      "matches": "  |."
+    },
+    {
+      "model": "AC",
+      "native": "CCAC",
+      "model_aligned": "--AC",
+      "native_aligned": "CCAC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AC",
+      "native": "CCCA",
+      "model_aligned": "AC--",
+      "native_aligned": "CCCA",
+      "matches": ".|  "
+    },
+    {
+      "model": "AC",
+      "native": "CCCC",
+      "model_aligned": "--AC",
+      "native_aligned": "CCCC",
+      "matches": "  .|"
+    },
+    {
+      "model": "CA",
+      "native": "A",
+      "model_aligned": "CA",
+      "native_aligned": "-A",
+      "matches": " |"
+    },
+    {
+      "model": "CA",
+      "native": "C",
+      "model_aligned": "CA",
+      "native_aligned": "C-",
+      "matches": "| "
+    },
+    {
+      "model": "CA",
+      "native": "AA",
+      "model_aligned": "CA",
+      "native_aligned": "AA",
+      "matches": ".|"
+    },
+    {
+      "model": "CA",
+      "native": "AC",
+      "model_aligned": "CA",
+      "native_aligned": "AC",
+      "matches": ".."
+    },
+    {
+      "model": "CA",
+      "native": "CA",
+      "model_aligned": "CA",
+      "native_aligned": "CA",
+      "matches": "||"
+    },
+    {
+      "model": "CA",
+      "native": "CC",
+      "model_aligned": "CA",
+      "native_aligned": "CC",
+      "matches": "|."
+    },
+    {
+      "model": "CA",
+      "native": "AAA",
+      "model_aligned": "-CA",
+      "native_aligned": "AAA",
+      "matches": " .|"
+    },
+    {
+      "model": "CA",
+      "native": "AAC",
+      "model_aligned": "CA-",
+      "native_aligned": "AAC",
+      "matches": ".| "
+    },
+    {
+      "model": "CA",
+      "native": "ACA",
+      "model_aligned": "-CA",
+      "native_aligned": "ACA",
+      "matches": " ||"
+    },
+    {
+      "model": "CA",
+      "native": "ACC",
+      "model_aligned": "-CA",
+      "native_aligned": "ACC",
+      "matches": " |."
+    },
+    {
+      "model": "CA",
+      "native": "CAA",
+      "model_aligned": "C-A",
+      "native_aligned": "CAA",
+      "matches": "| |"
+    },
+    {
+      "model": "CA",
+      "native": "CAC",
+      "model_aligned": "CA-",
+      "native_aligned": "CAC",
+      "matches": "|| "
+    },
+    {
+      "model": "CA",
+      "native": "CCA",
+      "model_aligned": "-CA",
+      "native_aligned": "CCA",
+      "matches": " ||"
+    },
+    {
+      "model": "CA",
+      "native": "CCC",
+      "model_aligned": "-CA",
+      "native_aligned": "CCC",
+      "matches": " |."
+    },
+    {
+      "model": "CA",
+      "native": "AAAA",
+      "model_aligned": "--CA",
+      "native_aligned": "AAAA",
+      "matches": "  .|"
+    },
+    {
+      "model": "CA",
+      "native": "AAAC",
+      "model_aligned": "CA--",
+      "native_aligned": "AAAC",
+      "matches": ".|  "
+    },
+    {
+      "model": "CA",
+      "native": "AACA",
+      "model_aligned": "--CA",
+      "native_aligned": "AACA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CA",
+      "native": "AACC",
+      "model_aligned": "--CA",
+      "native_aligned": "AACC",
+      "matches": "  |."
+    },
+    {
+      "model": "CA",
+      "native": "ACAA",
+      "model_aligned": "-C-A",
+      "native_aligned": "ACAA",
+      "matches": " | |"
+    },
+    {
+      "model": "CA",
+      "native": "ACAC",
+      "model_aligned": "-CA-",
+      "native_aligned": "ACAC",
+      "matches": " || "
+    },
+    {
+      "model": "CA",
+      "native": "ACCA",
+      "model_aligned": "--CA",
+      "native_aligned": "ACCA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CA",
+      "native": "ACCC",
+      "model_aligned": "--CA",
+      "native_aligned": "ACCC",
+      "matches": "  |."
+    },
+    {
+      "model": "CA",
+      "native": "CAAA",
+      "model_aligned": "C--A",
+      "native_aligned": "CAAA",
+      "matches": "|  |"
+    },
+    {
+      "model": "CA",
+      "native": "CAAC",
+      "model_aligned": "CA--",
+      "native_aligned": "CAAC",
+      "matches": "||  "
+    },
+    {
+      "model": "CA",
+      "native": "CACA",
+      "model_aligned": "--CA",
+      "native_aligned": "CACA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CA",
+      "native": "CACC",
+      "model_aligned": "CA--",
+      "native_aligned": "CACC",
+      "matches": "||  "
+    },
+    {
+      "model": "CA",
+      "native": "CCAA",
+      "model_aligned": "C--A",
+      "native_aligned": "CCAA",
+      "matches": "|  |"
+    },
+    {
+      "model": "CA",
+      "native": "CCAC",
+      "model_aligned": "-CA-",
+      "native_aligned": "CCAC",
+      "matches": " || "
+    },
+    {
+      "model": "CA",
+      "native": "CCCA",
+      "model_aligned": "--CA",
+      "native_aligned": "CCCA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CA",
+      "native": "CCCC",
+      "model_aligned": "--CA",
+      "native_aligned": "CCCC",
+      "matches": "  |."
+    },
+    {
+      "model": "CC",
+      "native": "A",
+      "model_aligned": "CC",
+      "native_aligned": "-A",
+      "matches": " ."
+    },
+    {
+      "model": "CC",
+      "native": "C",
+      "model_aligned": "CC",
+      "native_aligned": "-C",
+      "matches": " |"
+    },
+    {
+      "model": "CC",
+      "native": "AA",
+      "model_aligned": "CC",
+      "native_aligned": "AA",
+      "matches": ".."
+    },
+    {
+      "model": "CC",
+      "native": "AC",
+      "model_aligned": "CC",
+      "native_aligned": "AC",
+      "matches": ".|"
+    },
+    {
+      "model": "CC",
+      "native": "CA",
+      "model_aligned": "CC",
+      "native_aligned": "CA",
+      "matches": "|."
+    },
+    {
+      "model": "CC",
+      "native": "CC",
+      "model_aligned": "CC",
+      "native_aligned": "CC",
+      "matches": "||"
+    },
+    {
+      "model": "CC",
+      "native": "AAA",
+      "model_aligned": "-CC",
+      "native_aligned": "AAA",
+      "matches": " .."
+    },
+    {
+      "model": "CC",
+      "native": "AAC",
+      "model_aligned": "-CC",
+      "native_aligned": "AAC",
+      "matches": " .|"
+    },
+    {
+      "model": "CC",
+      "native": "ACA",
+      "model_aligned": "-CC",
+      "native_aligned": "ACA",
+      "matches": " |."
+    },
+    {
+      "model": "CC",
+      "native": "ACC",
+      "model_aligned": "-CC",
+      "native_aligned": "ACC",
+      "matches": " ||"
+    },
+    {
+      "model": "CC",
+      "native": "CAA",
+      "model_aligned": "C-C",
+      "native_aligned": "CAA",
+      "matches": "| ."
+    },
+    {
+      "model": "CC",
+      "native": "CAC",
+      "model_aligned": "C-C",
+      "native_aligned": "CAC",
+      "matches": "| |"
+    },
+    {
+      "model": "CC",
+      "native": "CCA",
+      "model_aligned": "CC-",
+      "native_aligned": "CCA",
+      "matches": "|| "
+    },
+    {
+      "model": "CC",
+      "native": "CCC",
+      "model_aligned": "-CC",
+      "native_aligned": "CCC",
+      "matches": " ||"
+    },
+    {
+      "model": "CC",
+      "native": "AAAA",
+      "model_aligned": "--CC",
+      "native_aligned": "AAAA",
+      "matches": "  .."
+    },
+    {
+      "model": "CC",
+      "native": "AAAC",
+      "model_aligned": "--CC",
+      "native_aligned": "AAAC",
+      "matches": "  .|"
+    },
+    {
+      "model": "CC",
+      "native": "AACA",
+      "model_aligned": "--CC",
+      "native_aligned": "AACA",
+      "matches": "  |."
+    },
+    {
+      "model": "CC",
+      "native": "AACC",
+      "model_aligned": "--CC",
+      "native_aligned": "AACC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CC",
+      "native": "ACAA",
+      "model_aligned": "CC--",
+      "native_aligned": "ACAA",
+      "matches": ".|  "
+    },
+    {
+      "model": "CC",
+      "native": "ACAC",
+      "model_aligned": "-C-C",
+      "native_aligned": "ACAC",
+      "matches": " | |"
+    },
+    {
+      "model": "CC",
+      "native": "ACCA",
+      "model_aligned": "-CC-",
+      "native_aligned": "ACCA",
+      "matches": " || "
+    },
+    {
+      "model": "CC",
+      "native": "ACCC",
+      "model_aligned": "--CC",
+      "native_aligned": "ACCC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CC",
+      "native": "CAAA",
+      "model_aligned": "C--C",
+      "native_aligned": "CAAA",
+      "matches": "|  ."
+    },
+    {
+      "model": "CC",
+      "native": "CAAC",
+      "model_aligned": "C--C",
+      "native_aligned": "CAAC",
+      "matches": "|  |"
+    },
+    {
+      "model": "CC",
+      "native": "CACA",
+      "model_aligned": "C-C-",
+      "native_aligned": "CACA",
+      "matches": "| | "
+    },
+    {
+      "model": "CC",
+      "native": "CACC",
+      "model_aligned": "--CC",
+      "native_aligned": "CACC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CC",
+      "native": "CCAA",
+      "model_aligned": "CC--",
+      "native_aligned": "CCAA",
+      "matches": "||  "
+    },
+    {
+      "model": "CC",
+      "native": "CCAC",
+      "model_aligned": "C--C",
+      "native_aligned": "CCAC",
+      "matches": "|  |"
+    },
+    {
+      "model": "CC",
+      "native": "CCCA",
+      "model_aligned": "CC--",
+      "native_aligned": "CCCA",
+      "matches": "||  "
+    },
+    {
+      "model": "CC",
+      "native": "CCCC",
+      "model_aligned": "--CC",
+      "native_aligned": "CCCC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AAA",
+      "native": "A",
+      "model_aligned": "AAA",
+      "native_aligned": "--A",
+      "matches": "  |"
+    },
+    {
+      "model": "AAA",
+      "native": "C",
+      "model_aligned": "AAA",
+      "native_aligned": "--C",
+      "matches": "  ."
+    },
+    {
+      "model": "AAA",
+      "native": "AA",
+      "model_aligned": "AAA",
+      "native_aligned": "-AA",
+      "matches": " ||"
+    },
+    {
+      "model": "AAA",
+      "native": "AC",
+      "model_aligned": "AAA",
+      "native_aligned": "-AC",
+      "matches": " |."
+    },
+    {
+      "model": "AAA",
+      "native": "CA",
+      "model_aligned": "AAA",
+      "native_aligned": "-CA",
+      "matches": " .|"
+    },
+    {
+      "model": "AAA",
+      "native": "CC",
+      "model_aligned": "AAA",
+      "native_aligned": "-CC",
+      "matches": " .."
+    },
+    {
+      "model": "AAA",
+      "native": "AAA",
+      "model_aligned": "AAA",
+      "native_aligned": "AAA",
+      "matches": "|||"
+    },
+    {
+      "model": "AAA",
+      "native": "AAC",
+      "model_aligned": "AAA",
+      "native_aligned": "AAC",
+      "matches": "||."
+    },
+    {
+      "model": "AAA",
+      "native": "ACA",
+      "model_aligned": "AAA",
+      "native_aligned": "ACA",
+      "matches": "|.|"
+    },
+    {
+      "model": "AAA",
+      "native": "ACC",
+      "model_aligned": "AAA",
+      "native_aligned": "ACC",
+      "matches": "|.."
+    },
+    {
+      "model": "AAA",
+      "native": "CAA",
+      "model_aligned": "AAA",
+      "native_aligned": "CAA",
+      "matches": ".||"
+    },
+    {
+      "model": "AAA",
+      "native": "CAC",
+      "model_aligned": "AAA",
+      "native_aligned": "CAC",
+      "matches": ".|."
+    },
+    {
+      "model": "AAA",
+      "native": "CCA",
+      "model_aligned": "AAA",
+      "native_aligned": "CCA",
+      "matches": "..|"
+    },
+    {
+      "model": "AAA",
+      "native": "CCC",
+      "model_aligned": "AAA",
+      "native_aligned": "CCC",
+      "matches": "..."
+    },
+    {
+      "model": "AAA",
+      "native": "AAAA",
+      "model_aligned": "-AAA",
+      "native_aligned": "AAAA",
+      "matches": " |||"
+    },
+    {
+      "model": "AAA",
+      "native": "AAAC",
+      "model_aligned": "AAA-",
+      "native_aligned": "AAAC",
+      "matches": "||| "
+    },
+    {
+      "model": "AAA",
+      "native": "AACA",
+      "model_aligned": "AA-A",
+      "native_aligned": "AACA",
+      "matches": "|| |"
+    },
+    {
+      "model": "AAA",
+      "native": "AACC",
+      "model_aligned": "AA-A",
+      "native_aligned": "AACC",
+      "matches": "|| ."
+    },
+    {
+      "model": "AAA",
+      "native": "ACAA",
+      "model_aligned": "A-AA",
+      "native_aligned": "ACAA",
+      "matches": "| ||"
+    },
+    {
+      "model": "AAA",
+      "native": "ACAC",
+      "model_aligned": "A-AA",
+      "native_aligned": "ACAC",
+      "matches": "| |."
+    },
+    {
+      "model": "AAA",
+      "native": "ACCA",
+      "model_aligned": "A-AA",
+      "native_aligned": "ACCA",
+      "matches": "| .|"
+    },
+    {
+      "model": "AAA",
+      "native": "ACCC",
+      "model_aligned": "A-AA",
+      "native_aligned": "ACCC",
+      "matches": "| .."
+    },
+    {
+      "model": "AAA",
+      "native": "CAAA",
+      "model_aligned": "-AAA",
+      "native_aligned": "CAAA",
+      "matches": " |||"
+    },
+    {
+      "model": "AAA",
+      "native": "CAAC",
+      "model_aligned": "-AAA",
+      "native_aligned": "CAAC",
+      "matches": " ||."
+    },
+    {
+      "model": "AAA",
+      "native": "CACA",
+      "model_aligned": "-AAA",
+      "native_aligned": "CACA",
+      "matches": " |.|"
+    },
+    {
+      "model": "AAA",
+      "native": "CACC",
+      "model_aligned": "-AAA",
+      "native_aligned": "CACC",
+      "matches": " |.."
+    },
+    {
+      "model": "AAA",
+      "native": "CCAA",
+      "model_aligned": "-AAA",
+      "native_aligned": "CCAA",
+      "matches": " .||"
+    },
+    {
+      "model": "AAA",
+      "native": "CCAC",
+      "model_aligned": "-AAA",
+      "native_aligned": "CCAC",
+      "matches": " .|."
+    },
+    {
+      "model": "AAA",
+      "native": "CCCA",
+      "model_aligned": "-AAA",
+      "native_aligned": "CCCA",
+      "matches": " ..|"
+    },
+    {
+      "model": "AAA",
+      "native": "CCCC",
+      "model_aligned": "-AAA",
+      "native_aligned": "CCCC",
+      "matches": " ..."
+    },
+    {
+      "model": "AAC",
+      "native": "A",
+      "model_aligned": "AAC",
+      "native_aligned": "A--",
+      "matches": "|  "
+    },
+    {
+      "model": "AAC",
+      "native": "C",
+      "model_aligned": "AAC",
+      "native_aligned": "--C",
+      "matches": "  |"
+    },
+    {
+      "model": "AAC",
+      "native": "AA",
+      "model_aligned": "AAC",
+      "native_aligned": "AA-",
+      "matches": "|| "
+    },
+    {
+      "model": "AAC",
+      "native": "AC",
+      "model_aligned": "AAC",
+      "native_aligned": "-AC",
+      "matches": " ||"
+    },
+    {
+      "model": "AAC",
+      "native": "CA",
+      "model_aligned": "AAC",
+      "native_aligned": "CA-",
+      "matches": ".| "
+    },
+    {
+      "model": "AAC",
+      "native": "CC",
+      "model_aligned": "AAC",
+      "native_aligned": "-CC",
+      "matches": " .|"
+    },
+    {
+      "model": "AAC",
+      "native": "AAA",
+      "model_aligned": "AAC",
+      "native_aligned": "AAA",
+      "matches": "||."
+    },
+    {
+      "model": "AAC",
+      "native": "AAC",
+      "model_aligned": "AAC",
+      "native_aligned": "AAC",
+      "matches": "|||"
+    },
+    {
+      "model": "AAC",
+      "native": "ACA",
+      "model_aligned": "AAC",
+      "native_aligned": "ACA",
+      "matches": "|.."
+    },
+    {
+      "model": "AAC",
+      "native": "ACC",
+      "model_aligned": "AAC",
+      "native_aligned": "ACC",
+      "matches": "|.|"
+    },
+    {
+      "model": "AAC",
+      "native": "CAA",
+      "model_aligned": "AAC",
+      "native_aligned": "CAA",
+      "matches": ".|."
+    },
+    {
+      "model": "AAC",
+      "native": "CAC",
+      "model_aligned": "AAC",
+      "native_aligned": "CAC",
+      "matches": ".||"
+    },
+    {
+      "model": "AAC",
+      "native": "CCA",
+      "model_aligned": "AAC",
+      "native_aligned": "CCA",
+      "matches": "..."
+    },
+    {
+      "model": "AAC",
+      "native": "CCC",
+      "model_aligned": "AAC",
+      "native_aligned": "CCC",
+      "matches": "..|"
+    },
+    {
+      "model": "AAC",
+      "native": "AAAA",
+      "model_aligned": "-AAC",
+      "native_aligned": "AAAA",
+      "matches": " ||."
+    },
+    {
+      "model": "AAC",
+      "native": "AAAC",
+      "model_aligned": "-AAC",
+      "native_aligned": "AAAC",
+      "matches": " |||"
+    },
+    {
+      "model": "AAC",
+      "native": "AACA",
+      "model_aligned": "AAC-",
+      "native_aligned": "AACA",
+      "matches": "||| "
+    },
+    {
+      "model": "AAC",
+      "native": "AACC",
+      "model_aligned": "AA-C",
+      "native_aligned": "AACC",
+      "matches": "|| |"
+    },
+    {
+      "model": "AAC",
+      "native": "ACAA",
+      "model_aligned": "A-AC",
+      "native_aligned": "ACAA",
+      "matches": "| |."
+    },
+    {
+      "model": "AAC",
+      "native": "ACAC",
+      "model_aligned": "A-AC",
+      "native_aligned": "ACAC",
+      "matches": "| ||"
+    },
+    {
+      "model": "AAC",
+      "native": "ACCA",
+      "model_aligned": "AAC-",
+      "native_aligned": "ACCA",
+      "matches": "|.| "
+    },
+    {
+      "model": "AAC",
+      "native": "ACCC",
+      "model_aligned": "A-AC",
+      "native_aligned": "ACCC",
+      "matches": "| .|"
+    },
+    {
+      "model": "AAC",
+      "native": "CAAA",
+      "model_aligned": "-AAC",
+      "native_aligned": "CAAA",
+      "matches": " ||."
+    },
+    {
+      "model": "AAC",
+      "native": "CAAC",
+      "model_aligned": "-AAC",
+      "native_aligned": "CAAC",
+      "matches": " |||"
+    },
+    {
+      "model": "AAC",
+      "native": "CACA",
+      "model_aligned": "AAC-",
+      "native_aligned": "CACA",
+      "matches": ".|| "
+    },
+    {
+      "model": "AAC",
+      "native": "CACC",
+      "model_aligned": "-AAC",
+      "native_aligned": "CACC",
+      "matches": " |.|"
+    },
+    {
+      "model": "AAC",
+      "native": "CCAA",
+      "model_aligned": "--AAC",
+      "native_aligned": "CCAA-",
+      "matches": "  || "
+    },
+    {
+      "model": "AAC",
+      "native": "CCAC",
+      "model_aligned": "-AAC",
+      "native_aligned": "CCAC",
+      "matches": " .||"
+    },
+    {
+      "model": "AAC",
+      "native": "CCCA",
+      "model_aligned": "AAC-",
+      "native_aligned": "CCCA",
+      "matches": "..| "
+    },
+    {
+      "model": "AAC",
+      "native": "CCCC",
+      "model_aligned": "-AAC",
+      "native_aligned": "CCCC",
+      "matches": " ..|"
+    },
+    {
+      "model": "ACA",
+      "native": "A",
+      "model_aligned": "ACA",
+      "native_aligned": "--A",
+      "matches": "  |"
+    },
+    {
+      "model": "ACA",
+      "native": "C",
+      "model_aligned": "ACA",
+      "native_aligned": "-C-",
+      "matches": " | "
+    },
+    {
+      "model": "ACA",
+      "native": "AA",
+      "model_aligned": "ACA",
+      "native_aligned": "A-A",
+      "matches": "| |"
+    },
+    {
+      "model": "ACA",
+      "native": "AC",
+      "model_aligned": "ACA",
+      "native_aligned": "AC-",
+      "matches": "|| "
+    },
+    {
+      "model": "ACA",
+      "native": "CA",
+      "model_aligned": "ACA",
+      "native_aligned": "-CA",
+      "matches": " ||"
+    },
+    {
+      "model": "ACA",
+      "native": "CC",
+      "model_aligned": "ACA",
+      "native_aligned": "-CC",
+      "matches": " |."
+    },
+    {
+      "model": "ACA",
+      "native": "AAA",
+      "model_aligned": "ACA",
+      "native_aligned": "AAA",
+      "matches": "|.|"
+    },
+    {
+      "model": "ACA",
+      "native": "AAC",
+      "model_aligned": "ACA",
+      "native_aligned": "AAC",
+      "matches": "|.."
+    },
+    {
+      "model": "ACA",
+      "native": "ACA",
+      "model_aligned": "ACA",
+      "native_aligned": "ACA",
+      "matches": "|||"
+    },
+    {
+      "model": "ACA",
+      "native": "ACC",
+      "model_aligned": "ACA",
+      "native_aligned": "ACC",
+      "matches": "||."
+    },
+    {
+      "model": "ACA",
+      "native": "CAA",
+      "model_aligned": "ACA",
+      "native_aligned": "CAA",
+      "matches": "..|"
+    },
+    {
+      "model": "ACA",
+      "native": "CAC",
+      "model_aligned": "-ACA",
+      "native_aligned": "CAC-",
+      "matches": " || "
+    },
+    {
+      "model": "ACA",
+      "native": "CCA",
+      "model_aligned": "ACA",
+      "native_aligned": "CCA",
+      "matches": ".||"
+    },
+    {
+      "model": "ACA",
+      "native": "CCC",
+      "model_aligned": "ACA",
+      "native_aligned": "CCC",
+      "matches": ".|."
+    },
+    {
+      "model": "ACA",
+      "native": "AAAA",
+      "model_aligned": "-ACA",
+      "native_aligned": "AAAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACA",
+      "native": "AAAC",
+      "model_aligned": "ACA-",
+      "native_aligned": "AAAC",
+      "matches": "|.| "
+    },
+    {
+      "model": "ACA",
+      "native": "AACA",
+      "model_aligned": "-ACA",
+      "native_aligned": "AACA",
+      "matches": " |||"
+    },
+    {
+      "model": "ACA",
+      "native": "AACC",
+      "model_aligned": "-ACA",
+      "native_aligned": "AACC",
+      "matches": " ||."
+    },
+    {
+      "model": "ACA",
+      "native": "ACAA",
+      "model_aligned": "AC-A",
+      "native_aligned": "ACAA",
+      "matches": "|| |"
+    },
+    {
+      "model": "ACA",
+      "native": "ACAC",
+      "model_aligned": "ACA-",
+      "native_aligned": "ACAC",
+      "matches": "||| "
+    },
+    {
+      "model": "ACA",
+      "native": "ACCA",
+      "model_aligned": "A-CA",
+      "native_aligned": "ACCA",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACA",
+      "native": "ACCC",
+      "model_aligned": "A-CA",
+      "native_aligned": "ACCC",
+      "matches": "| |."
+    },
+    {
+      "model": "ACA",
+      "native": "CAAA",
+      "model_aligned": "-ACA",
+      "native_aligned": "CAAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACA",
+      "native": "CAAC",
+      "model_aligned": "--ACA",
+      "native_aligned": "CAAC-",
+      "matches": "  || "
+    },
+    {
+      "model": "ACA",
+      "native": "CACA",
+      "model_aligned": "-ACA",
+      "native_aligned": "CACA",
+      "matches": " |||"
+    },
+    {
+      "model": "ACA",
+      "native": "CACC",
+      "model_aligned": "-ACA",
+      "native_aligned": "CACC",
+      "matches": " ||."
+    },
+    {
+      "model": "ACA",
+      "native": "CCAA",
+      "model_aligned": "AC-A",
+      "native_aligned": "CCAA",
+      "matches": ".| |"
+    },
+    {
+      "model": "ACA",
+      "native": "CCAC",
+      "model_aligned": "ACA-",
+      "native_aligned": "CCAC",
+      "matches": ".|| "
+    },
+    {
+      "model": "ACA",
+      "native": "CCCA",
+      "model_aligned": "-ACA",
+      "native_aligned": "CCCA",
+      "matches": " .||"
+    },
+    {
+      "model": "ACA",
+      "native": "CCCC",
+      "model_aligned": "-ACA",
+      "native_aligned": "CCCC",
+      "matches": " .|."
+    },
+    {
+      "model": "ACC",
+      "native": "A",
+      "model_aligned": "ACC",
+      "native_aligned": "A--",
+      "matches": "|  "
+    },
+    {
+      "model": "ACC",
+      "native": "C",
+      "model_aligned": "ACC",
+      "native_aligned": "--C",
+      "matches": "  |"
+    },
+    {
+      "model": "ACC",
+      "native": "AA",
+      "model_aligned": "ACC",
+      "native_aligned": "A-A",
+      "matches": "| ."
+    },
+    {
+      "model": "ACC",
+      "native": "AC",
+      "model_aligned": "ACC",
+      "native_aligned": "A-C",
+      "matches": "| |"
+    },
+    {
+      "model": "ACC",
+      "native": "CA",
+      "model_aligned": "ACC",
+      "native_aligned": "-CA",
+      "matches": " |."
+    },
+    {
+      "model": "ACC",
+      "native": "CC",
+      "model_aligned": "ACC",
+      "native_aligned": "-CC",
+      "matches": " ||"
+    },
+    {
+      "model": "ACC",
+      "native": "AAA",
+      "model_aligned": "ACC",
+      "native_aligned": "AAA",
+      "matches": "|.."
+    },
+    {
+      "model": "ACC",
+      "native": "AAC",
+      "model_aligned": "ACC",
+      "native_aligned": "AAC",
+      "matches": "|.|"
+    },
+    {
+      "model": "ACC",
+      "native": "ACA",
+      "model_aligned": "ACC",
+      "native_aligned": "ACA",
+      "matches": "||."
+    },
+    {
+      "model": "ACC",
+      "native": "ACC",
+      "model_aligned": "ACC",
+      "native_aligned": "ACC",
+      "matches": "|||"
+    },
+    {
+      "model": "ACC",
+      "native": "CAA",
+      "model_aligned": "ACC",
+      "native_aligned": "CAA",
+      "matches": "..."
+    },
+    {
+      "model": "ACC",
+      "native": "CAC",
+      "model_aligned": "ACC",
+      "native_aligned": "CAC",
+      "matches": "..|"
+    },
+    {
+      "model": "ACC",
+      "native": "CCA",
+      "model_aligned": "ACC",
+      "native_aligned": "CCA",
+      "matches": ".|."
+    },
+    {
+      "model": "ACC",
+      "native": "CCC",
+      "model_aligned": "ACC",
+      "native_aligned": "CCC",
+      "matches": ".||"
+    },
+    {
+      "model": "ACC",
+      "native": "AAAA",
+      "model_aligned": "-ACC",
+      "native_aligned": "AAAA",
+      "matches": " |.."
+    },
+    {
+      "model": "ACC",
+      "native": "AAAC",
+      "model_aligned": "-ACC",
+      "native_aligned": "AAAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACC",
+      "native": "AACA",
+      "model_aligned": "-ACC",
+      "native_aligned": "AACA",
+      "matches": " ||."
+    },
+    {
+      "model": "ACC",
+      "native": "AACC",
+      "model_aligned": "-ACC",
+      "native_aligned": "AACC",
+      "matches": " |||"
+    },
+    {
+      "model": "ACC",
+      "native": "ACAA",
+      "model_aligned": "AC-C",
+      "native_aligned": "ACAA",
+      "matches": "|| ."
+    },
+    {
+      "model": "ACC",
+      "native": "ACAC",
+      "model_aligned": "AC-C",
+      "native_aligned": "ACAC",
+      "matches": "|| |"
+    },
+    {
+      "model": "ACC",
+      "native": "ACCA",
+      "model_aligned": "ACC-",
+      "native_aligned": "ACCA",
+      "matches": "||| "
+    },
+    {
+      "model": "ACC",
+      "native": "ACCC",
+      "model_aligned": "A-CC",
+      "native_aligned": "ACCC",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACC",
+      "native": "CAAA",
+      "model_aligned": "-ACC",
+      "native_aligned": "CAAA",
+      "matches": " |.."
+    },
+    {
+      "model": "ACC",
+      "native": "CAAC",
+      "model_aligned": "-ACC",
+      "native_aligned": "CAAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACC",
+      "native": "CACA",
+      "model_aligned": "-ACC",
+      "native_aligned": "CACA",
+      "matches": " ||."
+    },
+    {
+      "model": "ACC",
+      "native": "CACC",
+      "model_aligned": "-ACC",
+      "native_aligned": "CACC",
+      "matches": " |||"
+    },
+    {
+      "model": "ACC",
+      "native": "CCAA",
+      "model_aligned": "ACC--",
+      "native_aligned": "-CCAA",
+      "matches": " ||  "
+    },
+    {
+      "model": "ACC",
+      "native": "CCAC",
+      "model_aligned": "AC-C",
+      "native_aligned": "CCAC",
+      "matches": ".| |"
+    },
+    {
+      "model": "ACC",
+      "native": "CCCA",
+      "model_aligned": "ACC-",
+      "native_aligned": "CCCA",
+      "matches": ".|| "
+    },
+    {
+      "model": "ACC",
+      "native": "CCCC",
+      "model_aligned": "-ACC",
+      "native_aligned": "CCCC",
+      "matches": " .||"
+    },
+    {
+      "model": "CAA",
+      "native": "A",
+      "model_aligned": "CAA",
+      "native_aligned": "--A",
+      "matches": "  |"
+    },
+    {
+      "model": "CAA",
+      "native": "C",
+      "model_aligned": "CAA",
+      "native_aligned": "C--",
+      "matches": "|  "
+    },
+    {
+      "model": "CAA",
+      "native": "AA",
+      "model_aligned": "CAA",
+      "native_aligned": "-AA",
+      "matches": " ||"
+    },
+    {
+      "model": "CAA",
+      "native": "AC",
+      "model_aligned": "CAA",
+      "native_aligned": "-AC",
+      "matches": " |."
+    },
+    {
+      "model": "CAA",
+      "native": "CA",
+      "model_aligned": "CAA",
+      "native_aligned": "C-A",
+      "matches": "| |"
+    },
+    {
+      "model": "CAA",
+      "native": "CC",
+      "model_aligned": "CAA",
+      "native_aligned": "C-C",
+      "matches": "| ."
+    },
+    {
+      "model": "CAA",
+      "native": "AAA",
+      "model_aligned": "CAA",
+      "native_aligned": "AAA",
+      "matches": ".||"
+    },
+    {
+      "model": "CAA",
+      "native": "AAC",
+      "model_aligned": "CAA",
+      "native_aligned": "AAC",
+      "matches": ".|."
+    },
+    {
+      "model": "CAA",
+      "native": "ACA",
+      "model_aligned": "CAA",
+      "native_aligned": "ACA",
+      "matches": "..|"
+    },
+    {
+      "model": "CAA",
+      "native": "ACC",
+      "model_aligned": "CAA",
+      "native_aligned": "ACC",
+      "matches": "..."
+    },
+    {
+      "model": "CAA",
+      "native": "CAA",
+      "model_aligned": "CAA",
+      "native_aligned": "CAA",
+      "matches": "|||"
+    },
+    {
+      "model": "CAA",
+      "native": "CAC",
+      "model_aligned": "CAA",
+      "native_aligned": "CAC",
+      "matches": "||."
+    },
+    {
+      "model": "CAA",
+      "native": "CCA",
+      "model_aligned": "CAA",
+      "native_aligned": "CCA",
+      "matches": "|.|"
+    },
+    {
+      "model": "CAA",
+      "native": "CCC",
+      "model_aligned": "CAA",
+      "native_aligned": "CCC",
+      "matches": "|.."
+    },
+    {
+      "model": "CAA",
+      "native": "AAAA",
+      "model_aligned": "-CAA",
+      "native_aligned": "AAAA",
+      "matches": " .||"
+    },
+    {
+      "model": "CAA",
+      "native": "AAAC",
+      "model_aligned": "CAA-",
+      "native_aligned": "AAAC",
+      "matches": ".|| "
+    },
+    {
+      "model": "CAA",
+      "native": "AACA",
+      "model_aligned": "CA-A",
+      "native_aligned": "AACA",
+      "matches": ".| |"
+    },
+    {
+      "model": "CAA",
+      "native": "AACC",
+      "model_aligned": "CAA--",
+      "native_aligned": "-AACC",
+      "matches": " ||  "
+    },
+    {
+      "model": "CAA",
+      "native": "ACAA",
+      "model_aligned": "-CAA",
+      "native_aligned": "ACAA",
+      "matches": " |||"
+    },
+    {
+      "model": "CAA",
+      "native": "ACAC",
+      "model_aligned": "-CAA",
+      "native_aligned": "ACAC",
+      "matches": " ||."
+    },
+    {
+      "model": "CAA",
+      "native": "ACCA",
+      "model_aligned": "-CAA",
+      "native_aligned": "ACCA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CAA",
+      "native": "ACCC",
+      "model_aligned": "-CAA",
+      "native_aligned": "ACCC",
+      "matches": " |.."
+    },
+    {
+      "model": "CAA",
+      "native": "CAAA",
+      "model_aligned": "C-AA",
+      "native_aligned": "CAAA",
+      "matches": "| ||"
+    },
+    {
+      "model": "CAA",
+      "native": "CAAC",
+      "model_aligned": "CAA-",
+      "native_aligned": "CAAC",
+      "matches": "||| "
+    },
+    {
+      "model": "CAA",
+      "native": "CACA",
+      "model_aligned": "CA-A",
+      "native_aligned": "CACA",
+      "matches": "|| |"
+    },
+    {
+      "model": "CAA",
+      "native": "CACC",
+      "model_aligned": "CA-A",
+      "native_aligned": "CACC",
+      "matches": "|| ."
+    },
+    {
+      "model": "CAA",
+      "native": "CCAA",
+      "model_aligned": "-CAA",
+      "native_aligned": "CCAA",
+      "matches": " |||"
+    },
+    {
+      "model": "CAA",
+      "native": "CCAC",
+      "model_aligned": "-CAA",
+      "native_aligned": "CCAC",
+      "matches": " ||."
+    },
+    {
+      "model": "CAA",
+      "native": "CCCA",
+      "model_aligned": "-CAA",
+      "native_aligned": "CCCA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CAA",
+      "native": "CCCC",
+      "model_aligned": "-CAA",
+      "native_aligned": "CCCC",
+      "matches": " |.."
+    },
+    {
+      "model": "CAC",
+      "native": "A",
+      "model_aligned": "CAC",
+      "native_aligned": "-A-",
+      "matches": " | "
+    },
+    {
+      "model": "CAC",
+      "native": "C",
+      "model_aligned": "CAC",
+      "native_aligned": "--C",
+      "matches": "  |"
+    },
+    {
+      "model": "CAC",
+      "native": "AA",
+      "model_aligned": "CAC",
+      "native_aligned": "-AA",
+      "matches": " |."
+    },
+    {
+      "model": "CAC",
+      "native": "AC",
+      "model_aligned": "CAC",
+      "native_aligned": "-AC",
+      "matches": " ||"
+    },
+    {
+      "model": "CAC",
+      "native": "CA",
+      "model_aligned": "CAC",
+      "native_aligned": "CA-",
+      "matches": "|| "
+    },
+    {
+      "model": "CAC",
+      "native": "CC",
+      "model_aligned": "CAC",
+      "native_aligned": "C-C",
+      "matches": "| |"
+    },
+    {
+      "model": "CAC",
+      "native": "AAA",
+      "model_aligned": "CAC",
+      "native_aligned": "AAA",
+      "matches": ".|."
+    },
+    {
+      "model": "CAC",
+      "native": "AAC",
+      "model_aligned": "CAC",
+      "native_aligned": "AAC",
+      "matches": ".||"
+    },
+    {
+      "model": "CAC",
+      "native": "ACA",
+      "model_aligned": "-CAC",
+      "native_aligned": "ACA-",
+      "matches": " || "
+    },
+    {
+      "model": "CAC",
+      "native": "ACC",
+      "model_aligned": "CAC",
+      "native_aligned": "ACC",
+      "matches": "..|"
+    },
+    {
+      "model": "CAC",
+      "native": "CAA",
+      "model_aligned": "CAC",
+      "native_aligned": "CAA",
+      "matches": "||."
+    },
+    {
+      "model": "CAC",
+      "native": "CAC",
+      "model_aligned": "CAC",
+      "native_aligned": "CAC",
+      "matches": "|||"
+    },
+    {
+      "model": "CAC",
+      "native": "CCA",
+      "model_aligned": "CAC",
+      "native_aligned": "CCA",
+      "matches": "|.."
+    },
+    {
+      "model": "CAC",
+      "native": "CCC",
+      "model_aligned": "CAC",
+      "native_aligned": "CCC",
+      "matches": "|.|"
+    },
+    {
+      "model": "CAC",
+      "native": "AAAA",
+      "model_aligned": "-CAC",
+      "native_aligned": "AAAA",
+      "matches": " .|."
+    },
+    {
+      "model": "CAC",
+      "native": "AAAC",
+      "model_aligned": "-CAC",
+      "native_aligned": "AAAC",
+      "matches": " .||"
+    },
+    {
+      "model": "CAC",
+      "native": "AACA",
+      "model_aligned": "CAC-",
+      "native_aligned": "AACA",
+      "matches": ".|| "
+    },
+    {
+      "model": "CAC",
+      "native": "AACC",
+      "model_aligned": "CA-C",
+      "native_aligned": "AACC",
+      "matches": ".| |"
+    },
+    {
+      "model": "CAC",
+      "native": "ACAA",
+      "model_aligned": "-CAC",
+      "native_aligned": "ACAA",
+      "matches": " ||."
+    },
+    {
+      "model": "CAC",
+      "native": "ACAC",
+      "model_aligned": "-CAC",
+      "native_aligned": "ACAC",
+      "matches": " |||"
+    },
+    {
+      "model": "CAC",
+      "native": "ACCA",
+      "model_aligned": "--CAC",
+      "native_aligned": "ACCA-",
+      "matches": "  || "
+    },
+    {
+      "model": "CAC",
+      "native": "ACCC",
+      "model_aligned": "-CAC",
+      "native_aligned": "ACCC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CAC",
+      "native": "CAAA",
+      "model_aligned": "C-AC",
+      "native_aligned": "CAAA",
+      "matches": "| |."
+    },
+    {
+      "model": "CAC",
+      "native": "CAAC",
+      "model_aligned": "C-AC",
+      "native_aligned": "CAAC",
+      "matches": "| ||"
+    },
+    {
+      "model": "CAC",
+      "native": "CACA",
+      "model_aligned": "CAC-",
+      "native_aligned": "CACA",
+      "matches": "||| "
+    },
+    {
+      "model": "CAC",
+      "native": "CACC",
+      "model_aligned": "CA-C",
+      "native_aligned": "CACC",
+      "matches": "|| |"
+    },
+    {
+      "model": "CAC",
+      "native": "CCAA",
+      "model_aligned": "-CAC",
+      "native_aligned": "CCAA",
+      "matches": " ||."
+    },
+    {
+      "model": "CAC",
+      "native": "CCAC",
+      "model_aligned": "-CAC",
+      "native_aligned": "CCAC",
+      "matches": " |||"
+    },
+    {
+      "model": "CAC",
+      "native": "CCCA",
+      "model_aligned": "CAC-",
+      "native_aligned": "CCCA",
+      "matches": "|.| "
+    },
+    {
+      "model": "CAC",
+      "native": "CCCC",
+      "model_aligned": "-CAC",
+      "native_aligned": "CCCC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CCA",
+      "native": "A",
+      "model_aligned": "CCA",
+      "native_aligned": "--A",
+      "matches": "  |"
+    },
+    {
+      "model": "CCA",
+      "native": "C",
+      "model_aligned": "CCA",
+      "native_aligned": "C--",
+      "matches": "|  "
+    },
+    {
+      "model": "CCA",
+      "native": "AA",
+      "model_aligned": "CCA",
+      "native_aligned": "-AA",
+      "matches": " .|"
+    },
+    {
+      "model": "CCA",
+      "native": "AC",
+      "model_aligned": "CCA",
+      "native_aligned": "AC-",
+      "matches": ".| "
+    },
+    {
+      "model": "CCA",
+      "native": "CA",
+      "model_aligned": "CCA",
+      "native_aligned": "-CA",
+      "matches": " ||"
+    },
+    {
+      "model": "CCA",
+      "native": "CC",
+      "model_aligned": "CCA",
+      "native_aligned": "CC-",
+      "matches": "|| "
+    },
+    {
+      "model": "CCA",
+      "native": "AAA",
+      "model_aligned": "CCA",
+      "native_aligned": "AAA",
+      "matches": "..|"
+    },
+    {
+      "model": "CCA",
+      "native": "AAC",
+      "model_aligned": "CCA",
+      "native_aligned": "AAC",
+      "matches": "..."
+    },
+    {
+      "model": "CCA",
+      "native": "ACA",
+      "model_aligned": "CCA",
+      "native_aligned": "ACA",
+      "matches": ".||"
+    },
+    {
+      "model": "CCA",
+      "native": "ACC",
+      "model_aligned": "CCA",
+      "native_aligned": "ACC",
+      "matches": ".|."
+    },
+    {
+      "model": "CCA",
+      "native": "CAA",
+      "model_aligned": "CCA",
+      "native_aligned": "CAA",
+      "matches": "|.|"
+    },
+    {
+      "model": "CCA",
+      "native": "CAC",
+      "model_aligned": "CCA",
+      "native_aligned": "CAC",
+      "matches": "|.."
+    },
+    {
+      "model": "CCA",
+      "native": "CCA",
+      "model_aligned": "CCA",
+      "native_aligned": "CCA",
+      "matches": "|||"
+    },
+    {
+      "model": "CCA",
+      "native": "CCC",
+      "model_aligned": "CCA",
+      "native_aligned": "CCC",
+      "matches": "||."
+    },
+    {
+      "model": "CCA",
+      "native": "AAAA",
+      "model_aligned": "-CCA",
+      "native_aligned": "AAAA",
+      "matches": " ..|"
+    },
+    {
+      "model": "CCA",
+      "native": "AAAC",
+      "model_aligned": "CCA-",
+      "native_aligned": "AAAC",
+      "matches": "..| "
+    },
+    {
+      "model": "CCA",
+      "native": "AACA",
+      "model_aligned": "-CCA",
+      "native_aligned": "AACA",
+      "matches": " .||"
+    },
+    {
+      "model": "CCA",
+      "native": "AACC",
+      "model_aligned": "--CCA",
+      "native_aligned": "AACC-",
+      "matches": "  || "
+    },
+    {
+      "model": "CCA",
+      "native": "ACAA",
+      "model_aligned": "-CCA",
+      "native_aligned": "ACAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CCA",
+      "native": "ACAC",
+      "model_aligned": "CCA-",
+      "native_aligned": "ACAC",
+      "matches": ".|| "
+    },
+    {
+      "model": "CCA",
+      "native": "ACCA",
+      "model_aligned": "-CCA",
+      "native_aligned": "ACCA",
+      "matches": " |||"
+    },
+    {
+      "model": "CCA",
+      "native": "ACCC",
+      "model_aligned": "-CCA",
+      "native_aligned": "ACCC",
+      "matches": " ||."
+    },
+    {
+      "model": "CCA",
+      "native": "CAAA",
+      "model_aligned": "C-CA",
+      "native_aligned": "CAAA",
+      "matches": "| .|"
+    },
+    {
+      "model": "CCA",
+      "native": "CAAC",
+      "model_aligned": "CCA-",
+      "native_aligned": "CAAC",
+      "matches": "|.| "
+    },
+    {
+      "model": "CCA",
+      "native": "CACA",
+      "model_aligned": "C-CA",
+      "native_aligned": "CACA",
+      "matches": "| ||"
+    },
+    {
+      "model": "CCA",
+      "native": "CACC",
+      "model_aligned": "C-CA",
+      "native_aligned": "CACC",
+      "matches": "| |."
+    },
+    {
+      "model": "CCA",
+      "native": "CCAA",
+      "model_aligned": "CC-A",
+      "native_aligned": "CCAA",
+      "matches": "|| |"
+    },
+    {
+      "model": "CCA",
+      "native": "CCAC",
+      "model_aligned": "CCA-",
+      "native_aligned": "CCAC",
+      "matches": "||| "
+    },
+    {
+      "model": "CCA",
+      "native": "CCCA",
+      "model_aligned": "-CCA",
+      "native_aligned": "CCCA",
+      "matches": " |||"
+    },
+    {
+      "model": "CCA",
+      "native": "CCCC",
+      "model_aligned": "-CCA",
+      "native_aligned": "CCCC",
+      "matches": " ||."
+    },
+    {
+      "model": "CCC",
+      "native": "A",
+      "model_aligned": "CCC",
+      "native_aligned": "--A",
+      "matches": "  ."
+    },
+    {
+      "model": "CCC",
+      "native": "C",
+      "model_aligned": "CCC",
+      "native_aligned": "--C",
+      "matches": "  |"
+    },
+    {
+      "model": "CCC",
+      "native": "AA",
+      "model_aligned": "CCC",
+      "native_aligned": "-AA",
+      "matches": " .."
+    },
+    {
+      "model": "CCC",
+      "native": "AC",
+      "model_aligned": "CCC",
+      "native_aligned": "-AC",
+      "matches": " .|"
+    },
+    {
+      "model": "CCC",
+      "native": "CA",
+      "model_aligned": "CCC",
+      "native_aligned": "-CA",
+      "matches": " |."
+    },
+    {
+      "model": "CCC",
+      "native": "CC",
+      "model_aligned": "CCC",
+      "native_aligned": "-CC",
+      "matches": " ||"
+    },
+    {
+      "model": "CCC",
+      "native": "AAA",
+      "model_aligned": "CCC",
+      "native_aligned": "AAA",
+      "matches": "..."
+    },
+    {
+      "model": "CCC",
+      "native": "AAC",
+      "model_aligned": "CCC",
+      "native_aligned": "AAC",
+      "matches": "..|"
+    },
+    {
+      "model": "CCC",
+      "native": "ACA",
+      "model_aligned": "CCC",
+      "native_aligned": "ACA",
+      "matches": ".|."
+    },
+    {
+      "model": "CCC",
+      "native": "ACC",
+      "model_aligned": "CCC",
+      "native_aligned": "ACC",
+      "matches": ".||"
+    },
+    {
+      "model": "CCC",
+      "native": "CAA",
+      "model_aligned": "CCC",
+      "native_aligned": "CAA",
+      "matches": "|.."
+    },
+    {
+      "model": "CCC",
+      "native": "CAC",
+      "model_aligned": "CCC",
+      "native_aligned": "CAC",
+      "matches": "|.|"
+    },
+    {
+      "model": "CCC",
+      "native": "CCA",
+      "model_aligned": "CCC",
+      "native_aligned": "CCA",
+      "matches": "||."
+    },
+    {
+      "model": "CCC",
+      "native": "CCC",
+      "model_aligned": "CCC",
+      "native_aligned": "CCC",
+      "matches": "|||"
+    },
+    {
+      "model": "CCC",
+      "native": "AAAA",
+      "model_aligned": "-CCC",
+      "native_aligned": "AAAA",
+      "matches": " ..."
+    },
+    {
+      "model": "CCC",
+      "native": "AAAC",
+      "model_aligned": "-CCC",
+      "native_aligned": "AAAC",
+      "matches": " ..|"
+    },
+    {
+      "model": "CCC",
+      "native": "AACA",
+      "model_aligned": "-CCC",
+      "native_aligned": "AACA",
+      "matches": " .|."
+    },
+    {
+      "model": "CCC",
+      "native": "AACC",
+      "model_aligned": "-CCC",
+      "native_aligned": "AACC",
+      "matches": " .||"
+    },
+    {
+      "model": "CCC",
+      "native": "ACAA",
+      "model_aligned": "-CCC",
+      "native_aligned": "ACAA",
+      "matches": " |.."
+    },
+    {
+      "model": "CCC",
+      "native": "ACAC",
+      "model_aligned": "-CCC",
+      "native_aligned": "ACAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CCC",
+      "native": "ACCA",
+      "model_aligned": "-CCC",
+      "native_aligned": "ACCA",
+      "matches": " ||."
+    },
+    {
+      "model": "CCC",
+      "native": "ACCC",
+      "model_aligned": "-CCC",
+      "native_aligned": "ACCC",
+      "matches": " |||"
+    },
+    {
+      "model": "CCC",
+      "native": "CAAA",
+      "model_aligned": "C-CC",
+      "native_aligned": "CAAA",
+      "matches": "| .."
+    },
+    {
+      "model": "CCC",
+      "native": "CAAC",
+      "model_aligned": "C-CC",
+      "native_aligned": "CAAC",
+      "matches": "| .|"
+    },
+    {
+      "model": "CCC",
+      "native": "CACA",
+      "model_aligned": "C-CC",
+      "native_aligned": "CACA",
+      "matches": "| |."
+    },
+    {
+      "model": "CCC",
+      "native": "CACC",
+      "model_aligned": "C-CC",
+      "native_aligned": "CACC",
+      "matches": "| ||"
+    },
+    {
+      "model": "CCC",
+      "native": "CCAA",
+      "model_aligned": "CC-C",
+      "native_aligned": "CCAA",
+      "matches": "|| ."
+    },
+    {
+      "model": "CCC",
+      "native": "CCAC",
+      "model_aligned": "CC-C",
+      "native_aligned": "CCAC",
+      "matches": "|| |"
+    },
+    {
+      "model": "CCC",
+      "native": "CCCA",
+      "model_aligned": "CCC-",
+      "native_aligned": "CCCA",
+      "matches": "||| "
+    },
+    {
+      "model": "CCC",
+      "native": "CCCC",
+      "model_aligned": "-CCC",
+      "native_aligned": "CCCC",
+      "matches": " |||"
+    },
+    {
+      "model": "AAAA",
+      "native": "A",
+      "model_aligned": "AAAA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "AAAA",
+      "native": "C",
+      "model_aligned": "AAAA",
+      "native_aligned": "---C",
+      "matches": "   ."
+    },
+    {
+      "model": "AAAA",
+      "native": "AA",
+      "model_aligned": "AAAA",
+      "native_aligned": "--AA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AAAA",
+      "native": "AC",
+      "model_aligned": "AAAA",
+      "native_aligned": "--AC",
+      "matches": "  |."
+    },
+    {
+      "model": "AAAA",
+      "native": "CA",
+      "model_aligned": "AAAA",
+      "native_aligned": "--CA",
+      "matches": "  .|"
+    },
+    {
+      "model": "AAAA",
+      "native": "CC",
+      "model_aligned": "AAAA",
+      "native_aligned": "--CC",
+      "matches": "  .."
+    },
+    {
+      "model": "AAAA",
+      "native": "AAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "-AAA",
+      "matches": " |||"
+    },
+    {
+      "model": "AAAA",
+      "native": "AAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "-AAC",
+      "matches": " ||."
+    },
+    {
+      "model": "AAAA",
+      "native": "ACA",
+      "model_aligned": "AAAA",
+      "native_aligned": "-ACA",
+      "matches": " |.|"
+    },
+    {
+      "model": "AAAA",
+      "native": "ACC",
+      "model_aligned": "AAAA",
+      "native_aligned": "-ACC",
+      "matches": " |.."
+    },
+    {
+      "model": "AAAA",
+      "native": "CAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "-CAA",
+      "matches": " .||"
+    },
+    {
+      "model": "AAAA",
+      "native": "CAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "-CAC",
+      "matches": " .|."
+    },
+    {
+      "model": "AAAA",
+      "native": "CCA",
+      "model_aligned": "AAAA",
+      "native_aligned": "-CCA",
+      "matches": " ..|"
+    },
+    {
+      "model": "AAAA",
+      "native": "CCC",
+      "model_aligned": "AAAA",
+      "native_aligned": "-CCC",
+      "matches": " ..."
+    },
+    {
+      "model": "AAAA",
+      "native": "AAAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "AAAA",
+      "matches": "||||"
+    },
+    {
+      "model": "AAAA",
+      "native": "AAAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "AAAC",
+      "matches": "|||."
+    },
+    {
+      "model": "AAAA",
+      "native": "AACA",
+      "model_aligned": "AAAA",
+      "native_aligned": "AACA",
+      "matches": "||.|"
+    },
+    {
+      "model": "AAAA",
+      "native": "AACC",
+      "model_aligned": "AAAA",
+      "native_aligned": "AACC",
+      "matches": "||.."
+    },
+    {
+      "model": "AAAA",
+      "native": "ACAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "ACAA",
+      "matches": "|.||"
+    },
+    {
+      "model": "AAAA",
+      "native": "ACAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "ACAC",
+      "matches": "|.|."
+    },
+    {
+      "model": "AAAA",
+      "native": "ACCA",
+      "model_aligned": "AAAA",
+      "native_aligned": "ACCA",
+      "matches": "|..|"
+    },
+    {
+      "model": "AAAA",
+      "native": "ACCC",
+      "model_aligned": "AAAA",
+      "native_aligned": "ACCC",
+      "matches": "|..."
+    },
+    {
+      "model": "AAAA",
+      "native": "CAAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "CAAA",
+      "matches": ".|||"
+    },
+    {
+      "model": "AAAA",
+      "native": "CAAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "CAAC",
+      "matches": ".||."
+    },
+    {
+      "model": "AAAA",
+      "native": "CACA",
+      "model_aligned": "AAAA",
+      "native_aligned": "CACA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "AAAA",
+      "native": "CACC",
+      "model_aligned": "AAAA",
+      "native_aligned": "CACC",
+      "matches": ".|.."
+    },
+    {
+      "model": "AAAA",
+      "native": "CCAA",
+      "model_aligned": "AAAA",
+      "native_aligned": "CCAA",
+      "matches": "..||"
+    },
+    {
+      "model": "AAAA",
+      "native": "CCAC",
+      "model_aligned": "AAAA",
+      "native_aligned": "CCAC",
+      "matches": "..|."
+    },
+    {
+      "model": "AAAA",
+      "native": "CCCA",
+      "model_aligned": "AAAA",
+      "native_aligned": "CCCA",
+      "matches": "...|"
+    },
+    {
+      "model": "AAAA",
+      "native": "CCCC",
+      "model_aligned": "AAAA",
+      "native_aligned": "CCCC",
+      "matches": "...."
+    },
+    {
+      "model": "AAAC",
+      "native": "A",
+      "model_aligned": "AAAC",
+      "native_aligned": "A---",
+      "matches": "|   "
+    },
+    {
+      "model": "AAAC",
+      "native": "C",
+      "model_aligned": "AAAC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "AAAC",
+      "native": "AA",
+      "model_aligned": "AAAC",
+      "native_aligned": "AA--",
+      "matches": "||  "
+    },
+    {
+      "model": "AAAC",
+      "native": "AC",
+      "model_aligned": "AAAC",
+      "native_aligned": "--AC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AAAC",
+      "native": "CA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CA--",
+      "matches": ".|  "
+    },
+    {
+      "model": "AAAC",
+      "native": "CC",
+      "model_aligned": "AAAC",
+      "native_aligned": "--CC",
+      "matches": "  .|"
+    },
+    {
+      "model": "AAAC",
+      "native": "AAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "AAA-",
+      "matches": "||| "
+    },
+    {
+      "model": "AAAC",
+      "native": "AAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "-AAC",
+      "matches": " |||"
+    },
+    {
+      "model": "AAAC",
+      "native": "ACA",
+      "model_aligned": "AAAC",
+      "native_aligned": "ACA-",
+      "matches": "|.| "
+    },
+    {
+      "model": "AAAC",
+      "native": "ACC",
+      "model_aligned": "AAAC",
+      "native_aligned": "-ACC",
+      "matches": " |.|"
+    },
+    {
+      "model": "AAAC",
+      "native": "CAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CAA-",
+      "matches": ".|| "
+    },
+    {
+      "model": "AAAC",
+      "native": "CAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "-CAC",
+      "matches": " .||"
+    },
+    {
+      "model": "AAAC",
+      "native": "CCA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CCA-",
+      "matches": "..| "
+    },
+    {
+      "model": "AAAC",
+      "native": "CCC",
+      "model_aligned": "AAAC",
+      "native_aligned": "-CCC",
+      "matches": " ..|"
+    },
+    {
+      "model": "AAAC",
+      "native": "AAAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "AAAA",
+      "matches": "|||."
+    },
+    {
+      "model": "AAAC",
+      "native": "AAAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "AAAC",
+      "matches": "||||"
+    },
+    {
+      "model": "AAAC",
+      "native": "AACA",
+      "model_aligned": "AAAC",
+      "native_aligned": "AACA",
+      "matches": "||.."
+    },
+    {
+      "model": "AAAC",
+      "native": "AACC",
+      "model_aligned": "AAAC",
+      "native_aligned": "AACC",
+      "matches": "||.|"
+    },
+    {
+      "model": "AAAC",
+      "native": "ACAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "ACAA",
+      "matches": "|.|."
+    },
+    {
+      "model": "AAAC",
+      "native": "ACAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "ACAC",
+      "matches": "|.||"
+    },
+    {
+      "model": "AAAC",
+      "native": "ACCA",
+      "model_aligned": "AAAC",
+      "native_aligned": "ACCA",
+      "matches": "|..."
+    },
+    {
+      "model": "AAAC",
+      "native": "ACCC",
+      "model_aligned": "AAAC",
+      "native_aligned": "ACCC",
+      "matches": "|..|"
+    },
+    {
+      "model": "AAAC",
+      "native": "CAAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CAAA",
+      "matches": ".||."
+    },
+    {
+      "model": "AAAC",
+      "native": "CAAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "CAAC",
+      "matches": ".|||"
+    },
+    {
+      "model": "AAAC",
+      "native": "CACA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CACA",
+      "matches": ".|.."
+    },
+    {
+      "model": "AAAC",
+      "native": "CACC",
+      "model_aligned": "AAAC",
+      "native_aligned": "CACC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "AAAC",
+      "native": "CCAA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CCAA",
+      "matches": "..|."
+    },
+    {
+      "model": "AAAC",
+      "native": "CCAC",
+      "model_aligned": "AAAC",
+      "native_aligned": "CCAC",
+      "matches": "..||"
+    },
+    {
+      "model": "AAAC",
+      "native": "CCCA",
+      "model_aligned": "AAAC",
+      "native_aligned": "CCCA",
+      "matches": "...."
+    },
+    {
+      "model": "AAAC",
+      "native": "CCCC",
+      "model_aligned": "AAAC",
+      "native_aligned": "CCCC",
+      "matches": "...|"
+    },
+    {
+      "model": "AACA",
+      "native": "A",
+      "model_aligned": "AACA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "AACA",
+      "native": "C",
+      "model_aligned": "AACA",
+      "native_aligned": "--C-",
+      "matches": "  | "
+    },
+    {
+      "model": "AACA",
+      "native": "AA",
+      "model_aligned": "AACA",
+      "native_aligned": "A--A",
+      "matches": "|  |"
+    },
+    {
+      "model": "AACA",
+      "native": "AC",
+      "model_aligned": "AACA",
+      "native_aligned": "-AC-",
+      "matches": " || "
+    },
+    {
+      "model": "AACA",
+      "native": "CA",
+      "model_aligned": "AACA",
+      "native_aligned": "--CA",
+      "matches": "  ||"
+    },
+    {
+      "model": "AACA",
+      "native": "CC",
+      "model_aligned": "AACA",
+      "native_aligned": "--CC",
+      "matches": "  |."
+    },
+    {
+      "model": "AACA",
+      "native": "AAA",
+      "model_aligned": "AACA",
+      "native_aligned": "AA-A",
+      "matches": "|| |"
+    },
+    {
+      "model": "AACA",
+      "native": "AAC",
+      "model_aligned": "AACA",
+      "native_aligned": "AAC-",
+      "matches": "||| "
+    },
+    {
+      "model": "AACA",
+      "native": "ACA",
+      "model_aligned": "AACA",
+      "native_aligned": "-ACA",
+      "matches": " |||"
+    },
+    {
+      "model": "AACA",
+      "native": "ACC",
+      "model_aligned": "AACA",
+      "native_aligned": "-ACC",
+      "matches": " ||."
+    },
+    {
+      "model": "AACA",
+      "native": "CAA",
+      "model_aligned": "AACA",
+      "native_aligned": "CA-A",
+      "matches": ".| |"
+    },
+    {
+      "model": "AACA",
+      "native": "CAC",
+      "model_aligned": "AACA",
+      "native_aligned": "CAC-",
+      "matches": ".|| "
+    },
+    {
+      "model": "AACA",
+      "native": "CCA",
+      "model_aligned": "AACA",
+      "native_aligned": "-CCA",
+      "matches": " .||"
+    },
+    {
+      "model": "AACA",
+      "native": "CCC",
+      "model_aligned": "AACA",
+      "native_aligned": "-CCC",
+      "matches": " .|."
+    },
+    {
+      "model": "AACA",
+      "native": "AAAA",
+      "model_aligned": "AACA",
+      "native_aligned": "AAAA",
+      "matches": "||.|"
+    },
+    {
+      "model": "AACA",
+      "native": "AAAC",
+      "model_aligned": "AACA",
+      "native_aligned": "AAAC",
+      "matches": "||.."
+    },
+    {
+      "model": "AACA",
+      "native": "AACA",
+      "model_aligned": "AACA",
+      "native_aligned": "AACA",
+      "matches": "||||"
+    },
+    {
+      "model": "AACA",
+      "native": "AACC",
+      "model_aligned": "AACA",
+      "native_aligned": "AACC",
+      "matches": "|||."
+    },
+    {
+      "model": "AACA",
+      "native": "ACAA",
+      "model_aligned": "AACA",
+      "native_aligned": "ACAA",
+      "matches": "|..|"
+    },
+    {
+      "model": "AACA",
+      "native": "ACAC",
+      "model_aligned": "A-ACA",
+      "native_aligned": "ACAC-",
+      "matches": "| || "
+    },
+    {
+      "model": "AACA",
+      "native": "ACCA",
+      "model_aligned": "AACA",
+      "native_aligned": "ACCA",
+      "matches": "|.||"
+    },
+    {
+      "model": "AACA",
+      "native": "ACCC",
+      "model_aligned": "AACA",
+      "native_aligned": "ACCC",
+      "matches": "|.|."
+    },
+    {
+      "model": "AACA",
+      "native": "CAAA",
+      "model_aligned": "AACA",
+      "native_aligned": "CAAA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "AACA",
+      "native": "CAAC",
+      "model_aligned": "-AACA",
+      "native_aligned": "CAAC-",
+      "matches": " ||| "
+    },
+    {
+      "model": "AACA",
+      "native": "CACA",
+      "model_aligned": "AACA",
+      "native_aligned": "CACA",
+      "matches": ".|||"
+    },
+    {
+      "model": "AACA",
+      "native": "CACC",
+      "model_aligned": "AACA",
+      "native_aligned": "CACC",
+      "matches": ".||."
+    },
+    {
+      "model": "AACA",
+      "native": "CCAA",
+      "model_aligned": "AACA",
+      "native_aligned": "CCAA",
+      "matches": "...|"
+    },
+    {
+      "model": "AACA",
+      "native": "CCAC",
+      "model_aligned": "-AACA",
+      "native_aligned": "CCAC-",
+      "matches": " .|| "
+    },
+    {
+      "model": "AACA",
+      "native": "CCCA",
+      "model_aligned": "AACA",
+      "native_aligned": "CCCA",
+      "matches": "..||"
+    },
+    {
+      "model": "AACA",
+      "native": "CCCC",
+      "model_aligned": "AACA",
+      "native_aligned": "CCCC",
+      "matches": "..|."
+    },
+    {
+      "model": "AACC",
+      "native": "A",
+      "model_aligned": "AACC",
+      "native_aligned": "A---",
+      "matches": "|   "
+    },
+    {
+      "model": "AACC",
+      "native": "C",
+      "model_aligned": "AACC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "AACC",
+      "native": "AA",
+      "model_aligned": "AACC",
+      "native_aligned": "AA--",
+      "matches": "||  "
+    },
+    {
+      "model": "AACC",
+      "native": "AC",
+      "model_aligned": "AACC",
+      "native_aligned": "A--C",
+      "matches": "|  |"
+    },
+    {
+      "model": "AACC",
+      "native": "CA",
+      "model_aligned": "AACC",
+      "native_aligned": "--CA",
+      "matches": "  |."
+    },
+    {
+      "model": "AACC",
+      "native": "CC",
+      "model_aligned": "AACC",
+      "native_aligned": "--CC",
+      "matches": "  ||"
+    },
+    {
+      "model": "AACC",
+      "native": "AAA",
+      "model_aligned": "AACC",
+      "native_aligned": "AA-A",
+      "matches": "|| ."
+    },
+    {
+      "model": "AACC",
+      "native": "AAC",
+      "model_aligned": "AACC",
+      "native_aligned": "AA-C",
+      "matches": "|| |"
+    },
+    {
+      "model": "AACC",
+      "native": "ACA",
+      "model_aligned": "AACC",
+      "native_aligned": "-ACA",
+      "matches": " ||."
+    },
+    {
+      "model": "AACC",
+      "native": "ACC",
+      "model_aligned": "AACC",
+      "native_aligned": "-ACC",
+      "matches": " |||"
+    },
+    {
+      "model": "AACC",
+      "native": "CAA",
+      "model_aligned": "-AACC",
+      "native_aligned": "CAA--",
+      "matches": " ||  "
+    },
+    {
+      "model": "AACC",
+      "native": "CAC",
+      "model_aligned": "AACC",
+      "native_aligned": "CA-C",
+      "matches": ".| |"
+    },
+    {
+      "model": "AACC",
+      "native": "CCA",
+      "model_aligned": "AACC-",
+      "native_aligned": "--CCA",
+      "matches": "  || "
+    },
+    {
+      "model": "AACC",
+      "native": "CCC",
+      "model_aligned": "AACC",
+      "native_aligned": "-CCC",
+      "matches": " .||"
+    },
+    {
+      "model": "AACC",
+      "native": "AAAA",
+      "model_aligned": "AACC",
+      "native_aligned": "AAAA",
+      "matches": "||.."
+    },
+    {
+      "model": "AACC",
+      "native": "AAAC",
+      "model_aligned": "AACC",
+      "native_aligned": "AAAC",
+      "matches": "||.|"
+    },
+    {
+      "model": "AACC",
+      "native": "AACA",
+      "model_aligned": "AACC",
+      "native_aligned": "AACA",
+      "matches": "|||."
+    },
+    {
+      "model": "AACC",
+      "native": "AACC",
+      "model_aligned": "AACC",
+      "native_aligned": "AACC",
+      "matches": "||||"
+    },
+    {
+      "model": "AACC",
+      "native": "ACAA",
+      "model_aligned": "AACC",
+      "native_aligned": "ACAA",
+      "matches": "|..."
+    },
+    {
+      "model": "AACC",
+      "native": "ACAC",
+      "model_aligned": "AACC",
+      "native_aligned": "ACAC",
+      "matches": "|..|"
+    },
+    {
+      "model": "AACC",
+      "native": "ACCA",
+      "model_aligned": "AACC",
+      "native_aligned": "ACCA",
+      "matches": "|.|."
+    },
+    {
+      "model": "AACC",
+      "native": "ACCC",
+      "model_aligned": "AACC",
+      "native_aligned": "ACCC",
+      "matches": "|.||"
+    },
+    {
+      "model": "AACC",
+      "native": "CAAA",
+      "model_aligned": "AACC",
+      "native_aligned": "CAAA",
+      "matches": ".|.."
+    },
+    {
+      "model": "AACC",
+      "native": "CAAC",
+      "model_aligned": "AACC",
+      "native_aligned": "CAAC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "AACC",
+      "native": "CACA",
+      "model_aligned": "AACC",
+      "native_aligned": "CACA",
+      "matches": ".||."
+    },
+    {
+      "model": "AACC",
+      "native": "CACC",
+      "model_aligned": "AACC",
+      "native_aligned": "CACC",
+      "matches": ".|||"
+    },
+    {
+      "model": "AACC",
+      "native": "CCAA",
+      "model_aligned": "--AACC",
+      "native_aligned": "CCAA--",
+      "matches": "  ||  "
+    },
+    {
+      "model": "AACC",
+      "native": "CCAC",
+      "model_aligned": "AACC",
+      "native_aligned": "CCAC",
+      "matches": "...|"
+    },
+    {
+      "model": "AACC",
+      "native": "CCCA",
+      "model_aligned": "AACC",
+      "native_aligned": "CCCA",
+      "matches": "..|."
+    },
+    {
+      "model": "AACC",
+      "native": "CCCC",
+      "model_aligned": "AACC",
+      "native_aligned": "CCCC",
+      "matches": "..||"
+    },
+    {
+      "model": "ACAA",
+      "native": "A",
+      "model_aligned": "ACAA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "ACAA",
+      "native": "C",
+      "model_aligned": "ACAA",
+      "native_aligned": "-C--",
+      "matches": " |  "
+    },
+    {
+      "model": "ACAA",
+      "native": "AA",
+      "model_aligned": "ACAA",
+      "native_aligned": "--AA",
+      "matches": "  ||"
+    },
+    {
+      "model": "ACAA",
+      "native": "AC",
+      "model_aligned": "ACAA",
+      "native_aligned": "AC--",
+      "matches": "||  "
+    },
+    {
+      "model": "ACAA",
+      "native": "CA",
+      "model_aligned": "ACAA",
+      "native_aligned": "-C-A",
+      "matches": " | |"
+    },
+    {
+      "model": "ACAA",
+      "native": "CC",
+      "model_aligned": "ACAA",
+      "native_aligned": "CC--",
+      "matches": ".|  "
+    },
+    {
+      "model": "ACAA",
+      "native": "AAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "A-AA",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACAA",
+      "native": "AAC",
+      "model_aligned": "ACAA",
+      "native_aligned": "A-AC",
+      "matches": "| |."
+    },
+    {
+      "model": "ACAA",
+      "native": "ACA",
+      "model_aligned": "ACAA",
+      "native_aligned": "AC-A",
+      "matches": "|| |"
+    },
+    {
+      "model": "ACAA",
+      "native": "ACC",
+      "model_aligned": "ACAA",
+      "native_aligned": "AC-C",
+      "matches": "|| ."
+    },
+    {
+      "model": "ACAA",
+      "native": "CAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "-CAA",
+      "matches": " |||"
+    },
+    {
+      "model": "ACAA",
+      "native": "CAC",
+      "model_aligned": "ACAA",
+      "native_aligned": "-CAC",
+      "matches": " ||."
+    },
+    {
+      "model": "ACAA",
+      "native": "CCA",
+      "model_aligned": "ACAA",
+      "native_aligned": "-CCA",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACAA",
+      "native": "CCC",
+      "model_aligned": "ACAA",
+      "native_aligned": "-CCC",
+      "matches": " |.."
+    },
+    {
+      "model": "ACAA",
+      "native": "AAAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "AAAA",
+      "matches": "|.||"
+    },
+    {
+      "model": "ACAA",
+      "native": "AAAC",
+      "model_aligned": "ACAA",
+      "native_aligned": "AAAC",
+      "matches": "|.|."
+    },
+    {
+      "model": "ACAA",
+      "native": "AACA",
+      "model_aligned": "ACAA",
+      "native_aligned": "AACA",
+      "matches": "|..|"
+    },
+    {
+      "model": "ACAA",
+      "native": "AACC",
+      "model_aligned": "ACAA",
+      "native_aligned": "AACC",
+      "matches": "|..."
+    },
+    {
+      "model": "ACAA",
+      "native": "ACAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "ACAA",
+      "matches": "||||"
+    },
+    {
+      "model": "ACAA",
+      "native": "ACAC",
+      "model_aligned": "ACAA",
+      "native_aligned": "ACAC",
+      "matches": "|||."
+    },
+    {
+      "model": "ACAA",
+      "native": "ACCA",
+      "model_aligned": "ACAA",
+      "native_aligned": "ACCA",
+      "matches": "||.|"
+    },
+    {
+      "model": "ACAA",
+      "native": "ACCC",
+      "model_aligned": "ACAA",
+      "native_aligned": "ACCC",
+      "matches": "||.."
+    },
+    {
+      "model": "ACAA",
+      "native": "CAAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "CAAA",
+      "matches": "..||"
+    },
+    {
+      "model": "ACAA",
+      "native": "CAAC",
+      "model_aligned": "ACAA-",
+      "native_aligned": "-CAAC",
+      "matches": " ||| "
+    },
+    {
+      "model": "ACAA",
+      "native": "CACA",
+      "model_aligned": "-ACAA",
+      "native_aligned": "CAC-A",
+      "matches": " || |"
+    },
+    {
+      "model": "ACAA",
+      "native": "CACC",
+      "model_aligned": "-ACAA",
+      "native_aligned": "CAC-C",
+      "matches": " || ."
+    },
+    {
+      "model": "ACAA",
+      "native": "CCAA",
+      "model_aligned": "ACAA",
+      "native_aligned": "CCAA",
+      "matches": ".|||"
+    },
+    {
+      "model": "ACAA",
+      "native": "CCAC",
+      "model_aligned": "ACAA",
+      "native_aligned": "CCAC",
+      "matches": ".||."
+    },
+    {
+      "model": "ACAA",
+      "native": "CCCA",
+      "model_aligned": "ACAA",
+      "native_aligned": "CCCA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "ACAA",
+      "native": "CCCC",
+      "model_aligned": "ACAA",
+      "native_aligned": "CCCC",
+      "matches": ".|.."
+    },
+    {
+      "model": "ACAC",
+      "native": "A",
+      "model_aligned": "ACAC",
+      "native_aligned": "A---",
+      "matches": "|   "
+    },
+    {
+      "model": "ACAC",
+      "native": "C",
+      "model_aligned": "ACAC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "ACAC",
+      "native": "AA",
+      "model_aligned": "ACAC",
+      "native_aligned": "A-A-",
+      "matches": "| | "
+    },
+    {
+      "model": "ACAC",
+      "native": "AC",
+      "model_aligned": "ACAC",
+      "native_aligned": "--AC",
+      "matches": "  ||"
+    },
+    {
+      "model": "ACAC",
+      "native": "CA",
+      "model_aligned": "ACAC",
+      "native_aligned": "-CA-",
+      "matches": " || "
+    },
+    {
+      "model": "ACAC",
+      "native": "CC",
+      "model_aligned": "ACAC",
+      "native_aligned": "-C-C",
+      "matches": " | |"
+    },
+    {
+      "model": "ACAC",
+      "native": "AAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "A-AA",
+      "matches": "| |."
+    },
+    {
+      "model": "ACAC",
+      "native": "AAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "A-AC",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACAC",
+      "native": "ACA",
+      "model_aligned": "ACAC",
+      "native_aligned": "ACA-",
+      "matches": "||| "
+    },
+    {
+      "model": "ACAC",
+      "native": "ACC",
+      "model_aligned": "ACAC",
+      "native_aligned": "AC-C",
+      "matches": "|| |"
+    },
+    {
+      "model": "ACAC",
+      "native": "CAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "-CAA",
+      "matches": " ||."
+    },
+    {
+      "model": "ACAC",
+      "native": "CAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "-CAC",
+      "matches": " |||"
+    },
+    {
+      "model": "ACAC",
+      "native": "CCA",
+      "model_aligned": "ACAC",
+      "native_aligned": "CCA-",
+      "matches": ".|| "
+    },
+    {
+      "model": "ACAC",
+      "native": "CCC",
+      "model_aligned": "ACAC",
+      "native_aligned": "-CCC",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACAC",
+      "native": "AAAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "AAAA",
+      "matches": "|.|."
+    },
+    {
+      "model": "ACAC",
+      "native": "AAAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "AAAC",
+      "matches": "|.||"
+    },
+    {
+      "model": "ACAC",
+      "native": "AACA",
+      "model_aligned": "-ACAC",
+      "native_aligned": "AACA-",
+      "matches": " ||| "
+    },
+    {
+      "model": "ACAC",
+      "native": "AACC",
+      "model_aligned": "ACAC",
+      "native_aligned": "AACC",
+      "matches": "|..|"
+    },
+    {
+      "model": "ACAC",
+      "native": "ACAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "ACAA",
+      "matches": "|||."
+    },
+    {
+      "model": "ACAC",
+      "native": "ACAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "ACAC",
+      "matches": "||||"
+    },
+    {
+      "model": "ACAC",
+      "native": "ACCA",
+      "model_aligned": "ACAC",
+      "native_aligned": "ACCA",
+      "matches": "||.."
+    },
+    {
+      "model": "ACAC",
+      "native": "ACCC",
+      "model_aligned": "ACAC",
+      "native_aligned": "ACCC",
+      "matches": "||.|"
+    },
+    {
+      "model": "ACAC",
+      "native": "CAAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "CAAA",
+      "matches": "..|."
+    },
+    {
+      "model": "ACAC",
+      "native": "CAAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "CAAC",
+      "matches": "..||"
+    },
+    {
+      "model": "ACAC",
+      "native": "CACA",
+      "model_aligned": "-ACAC",
+      "native_aligned": "CACA-",
+      "matches": " ||| "
+    },
+    {
+      "model": "ACAC",
+      "native": "CACC",
+      "model_aligned": "-ACAC",
+      "native_aligned": "CAC-C",
+      "matches": " || |"
+    },
+    {
+      "model": "ACAC",
+      "native": "CCAA",
+      "model_aligned": "ACAC",
+      "native_aligned": "CCAA",
+      "matches": ".||."
+    },
+    {
+      "model": "ACAC",
+      "native": "CCAC",
+      "model_aligned": "ACAC",
+      "native_aligned": "CCAC",
+      "matches": ".|||"
+    },
+    {
+      "model": "ACAC",
+      "native": "CCCA",
+      "model_aligned": "ACAC",
+      "native_aligned": "CCCA",
+      "matches": ".|.."
+    },
+    {
+      "model": "ACAC",
+      "native": "CCCC",
+      "model_aligned": "ACAC",
+      "native_aligned": "CCCC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "ACCA",
+      "native": "A",
+      "model_aligned": "ACCA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "ACCA",
+      "native": "C",
+      "model_aligned": "ACCA",
+      "native_aligned": "--C-",
+      "matches": "  | "
+    },
+    {
+      "model": "ACCA",
+      "native": "AA",
+      "model_aligned": "ACCA",
+      "native_aligned": "A--A",
+      "matches": "|  |"
+    },
+    {
+      "model": "ACCA",
+      "native": "AC",
+      "model_aligned": "ACCA",
+      "native_aligned": "AC--",
+      "matches": "||  "
+    },
+    {
+      "model": "ACCA",
+      "native": "CA",
+      "model_aligned": "ACCA",
+      "native_aligned": "--CA",
+      "matches": "  ||"
+    },
+    {
+      "model": "ACCA",
+      "native": "CC",
+      "model_aligned": "ACCA",
+      "native_aligned": "-CC-",
+      "matches": " || "
+    },
+    {
+      "model": "ACCA",
+      "native": "AAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "A-AA",
+      "matches": "| .|"
+    },
+    {
+      "model": "ACCA",
+      "native": "AAC",
+      "model_aligned": "ACCA",
+      "native_aligned": "AAC-",
+      "matches": "|.| "
+    },
+    {
+      "model": "ACCA",
+      "native": "ACA",
+      "model_aligned": "ACCA",
+      "native_aligned": "A-CA",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACCA",
+      "native": "ACC",
+      "model_aligned": "ACCA",
+      "native_aligned": "ACC-",
+      "matches": "||| "
+    },
+    {
+      "model": "ACCA",
+      "native": "CAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "-CAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACCA",
+      "native": "CAC",
+      "model_aligned": "-ACCA",
+      "native_aligned": "CAC--",
+      "matches": " ||  "
+    },
+    {
+      "model": "ACCA",
+      "native": "CCA",
+      "model_aligned": "ACCA",
+      "native_aligned": "-CCA",
+      "matches": " |||"
+    },
+    {
+      "model": "ACCA",
+      "native": "CCC",
+      "model_aligned": "ACCA",
+      "native_aligned": "-CCC",
+      "matches": " ||."
+    },
+    {
+      "model": "ACCA",
+      "native": "AAAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "AAAA",
+      "matches": "|..|"
+    },
+    {
+      "model": "ACCA",
+      "native": "AAAC",
+      "model_aligned": "ACCA",
+      "native_aligned": "AAAC",
+      "matches": "|..."
+    },
+    {
+      "model": "ACCA",
+      "native": "AACA",
+      "model_aligned": "ACCA",
+      "native_aligned": "AACA",
+      "matches": "|.||"
+    },
+    {
+      "model": "ACCA",
+      "native": "AACC",
+      "model_aligned": "ACCA",
+      "native_aligned": "AACC",
+      "matches": "|.|."
+    },
+    {
+      "model": "ACCA",
+      "native": "ACAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "ACAA",
+      "matches": "||.|"
+    },
+    {
+      "model": "ACCA",
+      "native": "ACAC",
+      "model_aligned": "ACCA",
+      "native_aligned": "ACAC",
+      "matches": "||.."
+    },
+    {
+      "model": "ACCA",
+      "native": "ACCA",
+      "model_aligned": "ACCA",
+      "native_aligned": "ACCA",
+      "matches": "||||"
+    },
+    {
+      "model": "ACCA",
+      "native": "ACCC",
+      "model_aligned": "ACCA",
+      "native_aligned": "ACCC",
+      "matches": "|||."
+    },
+    {
+      "model": "ACCA",
+      "native": "CAAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "CAAA",
+      "matches": "...|"
+    },
+    {
+      "model": "ACCA",
+      "native": "CAAC",
+      "model_aligned": "-ACCA",
+      "native_aligned": "CAAC-",
+      "matches": " |.| "
+    },
+    {
+      "model": "ACCA",
+      "native": "CACA",
+      "model_aligned": "ACCA",
+      "native_aligned": "CACA",
+      "matches": "..||"
+    },
+    {
+      "model": "ACCA",
+      "native": "CACC",
+      "model_aligned": "-ACCA",
+      "native_aligned": "CACC-",
+      "matches": " ||| "
+    },
+    {
+      "model": "ACCA",
+      "native": "CCAA",
+      "model_aligned": "ACCA",
+      "native_aligned": "CCAA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "ACCA",
+      "native": "CCAC",
+      "model_aligned": "ACCA-",
+      "native_aligned": "-CCAC",
+      "matches": " ||| "
+    },
+    {
+      "model": "ACCA",
+      "native": "CCCA",
+      "model_aligned": "ACCA",
+      "native_aligned": "CCCA",
+      "matches": ".|||"
+    },
+    {
+      "model": "ACCA",
+      "native": "CCCC",
+      "model_aligned": "ACCA",
+      "native_aligned": "CCCC",
+      "matches": ".||."
+    },
+    {
+      "model": "ACCC",
+      "native": "A",
+      "model_aligned": "ACCC",
+      "native_aligned": "A---",
+      "matches": "|   "
+    },
+    {
+      "model": "ACCC",
+      "native": "C",
+      "model_aligned": "ACCC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "ACCC",
+      "native": "AA",
+      "model_aligned": "ACCC",
+      "native_aligned": "A--A",
+      "matches": "|  ."
+    },
+    {
+      "model": "ACCC",
+      "native": "AC",
+      "model_aligned": "ACCC",
+      "native_aligned": "A--C",
+      "matches": "|  |"
+    },
+    {
+      "model": "ACCC",
+      "native": "CA",
+      "model_aligned": "ACCC",
+      "native_aligned": "--CA",
+      "matches": "  |."
+    },
+    {
+      "model": "ACCC",
+      "native": "CC",
+      "model_aligned": "ACCC",
+      "native_aligned": "--CC",
+      "matches": "  ||"
+    },
+    {
+      "model": "ACCC",
+      "native": "AAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "A-AA",
+      "matches": "| .."
+    },
+    {
+      "model": "ACCC",
+      "native": "AAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "A-AC",
+      "matches": "| .|"
+    },
+    {
+      "model": "ACCC",
+      "native": "ACA",
+      "model_aligned": "ACCC",
+      "native_aligned": "A-CA",
+      "matches": "| |."
+    },
+    {
+      "model": "ACCC",
+      "native": "ACC",
+      "model_aligned": "ACCC",
+      "native_aligned": "A-CC",
+      "matches": "| ||"
+    },
+    {
+      "model": "ACCC",
+      "native": "CAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "-CAA",
+      "matches": " |.."
+    },
+    {
+      "model": "ACCC",
+      "native": "CAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "-CAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "ACCC",
+      "native": "CCA",
+      "model_aligned": "ACCC",
+      "native_aligned": "-CCA",
+      "matches": " ||."
+    },
+    {
+      "model": "ACCC",
+      "native": "CCC",
+      "model_aligned": "ACCC",
+      "native_aligned": "-CCC",
+      "matches": " |||"
+    },
+    {
+      "model": "ACCC",
+      "native": "AAAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "AAAA",
+      "matches": "|..."
+    },
+    {
+      "model": "ACCC",
+      "native": "AAAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "AAAC",
+      "matches": "|..|"
+    },
+    {
+      "model": "ACCC",
+      "native": "AACA",
+      "model_aligned": "ACCC",
+      "native_aligned": "AACA",
+      "matches": "|.|."
+    },
+    {
+      "model": "ACCC",
+      "native": "AACC",
+      "model_aligned": "ACCC",
+      "native_aligned": "AACC",
+      "matches": "|.||"
+    },
+    {
+      "model": "ACCC",
+      "native": "ACAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "ACAA",
+      "matches": "||.."
+    },
+    {
+      "model": "ACCC",
+      "native": "ACAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "ACAC",
+      "matches": "||.|"
+    },
+    {
+      "model": "ACCC",
+      "native": "ACCA",
+      "model_aligned": "ACCC",
+      "native_aligned": "ACCA",
+      "matches": "|||."
+    },
+    {
+      "model": "ACCC",
+      "native": "ACCC",
+      "model_aligned": "ACCC",
+      "native_aligned": "ACCC",
+      "matches": "||||"
+    },
+    {
+      "model": "ACCC",
+      "native": "CAAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "CAAA",
+      "matches": "...."
+    },
+    {
+      "model": "ACCC",
+      "native": "CAAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "CAAC",
+      "matches": "...|"
+    },
+    {
+      "model": "ACCC",
+      "native": "CACA",
+      "model_aligned": "ACCC",
+      "native_aligned": "CACA",
+      "matches": "..|."
+    },
+    {
+      "model": "ACCC",
+      "native": "CACC",
+      "model_aligned": "ACCC",
+      "native_aligned": "CACC",
+      "matches": "..||"
+    },
+    {
+      "model": "ACCC",
+      "native": "CCAA",
+      "model_aligned": "ACCC",
+      "native_aligned": "CCAA",
+      "matches": ".|.."
+    },
+    {
+      "model": "ACCC",
+      "native": "CCAC",
+      "model_aligned": "ACCC",
+      "native_aligned": "CCAC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "ACCC",
+      "native": "CCCA",
+      "model_aligned": "ACCC",
+      "native_aligned": "CCCA",
+      "matches": ".||."
+    },
+    {
+      "model": "ACCC",
+      "native": "CCCC",
+      "model_aligned": "ACCC",
+      "native_aligned": "CCCC",
+      "matches": ".|||"
+    },
+    {
+      "model": "CAAA",
+      "native": "A",
+      "model_aligned": "CAAA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "CAAA",
+      "native": "C",
+      "model_aligned": "CAAA",
+      "native_aligned": "C---",
+      "matches": "|   "
+    },
+    {
+      "model": "CAAA",
+      "native": "AA",
+      "model_aligned": "CAAA",
+      "native_aligned": "--AA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CAAA",
+      "native": "AC",
+      "model_aligned": "CAAA",
+      "native_aligned": "--AC",
+      "matches": "  |."
+    },
+    {
+      "model": "CAAA",
+      "native": "CA",
+      "model_aligned": "CAAA",
+      "native_aligned": "C--A",
+      "matches": "|  |"
+    },
+    {
+      "model": "CAAA",
+      "native": "CC",
+      "model_aligned": "CAAA",
+      "native_aligned": "C--C",
+      "matches": "|  ."
+    },
+    {
+      "model": "CAAA",
+      "native": "AAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "-AAA",
+      "matches": " |||"
+    },
+    {
+      "model": "CAAA",
+      "native": "AAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "-AAC",
+      "matches": " ||."
+    },
+    {
+      "model": "CAAA",
+      "native": "ACA",
+      "model_aligned": "CAAA",
+      "native_aligned": "-ACA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CAAA",
+      "native": "ACC",
+      "model_aligned": "CAAA",
+      "native_aligned": "-ACC",
+      "matches": " |.."
+    },
+    {
+      "model": "CAAA",
+      "native": "CAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "C-AA",
+      "matches": "| ||"
+    },
+    {
+      "model": "CAAA",
+      "native": "CAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "C-AC",
+      "matches": "| |."
+    },
+    {
+      "model": "CAAA",
+      "native": "CCA",
+      "model_aligned": "CAAA",
+      "native_aligned": "C-CA",
+      "matches": "| .|"
+    },
+    {
+      "model": "CAAA",
+      "native": "CCC",
+      "model_aligned": "CAAA",
+      "native_aligned": "C-CC",
+      "matches": "| .."
+    },
+    {
+      "model": "CAAA",
+      "native": "AAAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "AAAA",
+      "matches": ".|||"
+    },
+    {
+      "model": "CAAA",
+      "native": "AAAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "AAAC",
+      "matches": ".||."
+    },
+    {
+      "model": "CAAA",
+      "native": "AACA",
+      "model_aligned": "CAAA",
+      "native_aligned": "AACA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CAAA",
+      "native": "AACC",
+      "model_aligned": "CAAA",
+      "native_aligned": "AACC",
+      "matches": ".|.."
+    },
+    {
+      "model": "CAAA",
+      "native": "ACAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "ACAA",
+      "matches": "..||"
+    },
+    {
+      "model": "CAAA",
+      "native": "ACAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "ACAC",
+      "matches": "..|."
+    },
+    {
+      "model": "CAAA",
+      "native": "ACCA",
+      "model_aligned": "CAAA",
+      "native_aligned": "ACCA",
+      "matches": "...|"
+    },
+    {
+      "model": "CAAA",
+      "native": "ACCC",
+      "model_aligned": "CAAA",
+      "native_aligned": "ACCC",
+      "matches": "...."
+    },
+    {
+      "model": "CAAA",
+      "native": "CAAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "CAAA",
+      "matches": "||||"
+    },
+    {
+      "model": "CAAA",
+      "native": "CAAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "CAAC",
+      "matches": "|||."
+    },
+    {
+      "model": "CAAA",
+      "native": "CACA",
+      "model_aligned": "CAAA",
+      "native_aligned": "CACA",
+      "matches": "||.|"
+    },
+    {
+      "model": "CAAA",
+      "native": "CACC",
+      "model_aligned": "CAAA",
+      "native_aligned": "CACC",
+      "matches": "||.."
+    },
+    {
+      "model": "CAAA",
+      "native": "CCAA",
+      "model_aligned": "CAAA",
+      "native_aligned": "CCAA",
+      "matches": "|.||"
+    },
+    {
+      "model": "CAAA",
+      "native": "CCAC",
+      "model_aligned": "CAAA",
+      "native_aligned": "CCAC",
+      "matches": "|.|."
+    },
+    {
+      "model": "CAAA",
+      "native": "CCCA",
+      "model_aligned": "CAAA",
+      "native_aligned": "CCCA",
+      "matches": "|..|"
+    },
+    {
+      "model": "CAAA",
+      "native": "CCCC",
+      "model_aligned": "CAAA",
+      "native_aligned": "CCCC",
+      "matches": "|..."
+    },
+    {
+      "model": "CAAC",
+      "native": "A",
+      "model_aligned": "CAAC",
+      "native_aligned": "--A-",
+      "matches": "  | "
+    },
+    {
+      "model": "CAAC",
+      "native": "C",
+      "model_aligned": "CAAC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "CAAC",
+      "native": "AA",
+      "model_aligned": "CAAC",
+      "native_aligned": "-AA-",
+      "matches": " || "
+    },
+    {
+      "model": "CAAC",
+      "native": "AC",
+      "model_aligned": "CAAC",
+      "native_aligned": "--AC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CAAC",
+      "native": "CA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CA--",
+      "matches": "||  "
+    },
+    {
+      "model": "CAAC",
+      "native": "CC",
+      "model_aligned": "CAAC",
+      "native_aligned": "C--C",
+      "matches": "|  |"
+    },
+    {
+      "model": "CAAC",
+      "native": "AAA",
+      "model_aligned": "CAAC",
+      "native_aligned": "-AAA",
+      "matches": " ||."
+    },
+    {
+      "model": "CAAC",
+      "native": "AAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "-AAC",
+      "matches": " |||"
+    },
+    {
+      "model": "CAAC",
+      "native": "ACA",
+      "model_aligned": "-CAAC",
+      "native_aligned": "ACA--",
+      "matches": " ||  "
+    },
+    {
+      "model": "CAAC",
+      "native": "ACC",
+      "model_aligned": "CAAC",
+      "native_aligned": "-ACC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CAAC",
+      "native": "CAA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CAA-",
+      "matches": "||| "
+    },
+    {
+      "model": "CAAC",
+      "native": "CAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "C-AC",
+      "matches": "| ||"
+    },
+    {
+      "model": "CAAC",
+      "native": "CCA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CCA-",
+      "matches": "|.| "
+    },
+    {
+      "model": "CAAC",
+      "native": "CCC",
+      "model_aligned": "CAAC",
+      "native_aligned": "C-CC",
+      "matches": "| .|"
+    },
+    {
+      "model": "CAAC",
+      "native": "AAAA",
+      "model_aligned": "CAAC",
+      "native_aligned": "AAAA",
+      "matches": ".||."
+    },
+    {
+      "model": "CAAC",
+      "native": "AAAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "AAAC",
+      "matches": ".|||"
+    },
+    {
+      "model": "CAAC",
+      "native": "AACA",
+      "model_aligned": "CAAC-",
+      "native_aligned": "-AACA",
+      "matches": " ||| "
+    },
+    {
+      "model": "CAAC",
+      "native": "AACC",
+      "model_aligned": "CAAC",
+      "native_aligned": "AACC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CAAC",
+      "native": "ACAA",
+      "model_aligned": "-CAAC",
+      "native_aligned": "ACAA-",
+      "matches": " ||| "
+    },
+    {
+      "model": "CAAC",
+      "native": "ACAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "ACAC",
+      "matches": "..||"
+    },
+    {
+      "model": "CAAC",
+      "native": "ACCA",
+      "model_aligned": "-CAAC",
+      "native_aligned": "ACCA-",
+      "matches": " |.| "
+    },
+    {
+      "model": "CAAC",
+      "native": "ACCC",
+      "model_aligned": "CAAC",
+      "native_aligned": "ACCC",
+      "matches": "...|"
+    },
+    {
+      "model": "CAAC",
+      "native": "CAAA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CAAA",
+      "matches": "|||."
+    },
+    {
+      "model": "CAAC",
+      "native": "CAAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "CAAC",
+      "matches": "||||"
+    },
+    {
+      "model": "CAAC",
+      "native": "CACA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CACA",
+      "matches": "||.."
+    },
+    {
+      "model": "CAAC",
+      "native": "CACC",
+      "model_aligned": "CAAC",
+      "native_aligned": "CACC",
+      "matches": "||.|"
+    },
+    {
+      "model": "CAAC",
+      "native": "CCAA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CCAA",
+      "matches": "|.|."
+    },
+    {
+      "model": "CAAC",
+      "native": "CCAC",
+      "model_aligned": "CAAC",
+      "native_aligned": "CCAC",
+      "matches": "|.||"
+    },
+    {
+      "model": "CAAC",
+      "native": "CCCA",
+      "model_aligned": "CAAC",
+      "native_aligned": "CCCA",
+      "matches": "|..."
+    },
+    {
+      "model": "CAAC",
+      "native": "CCCC",
+      "model_aligned": "CAAC",
+      "native_aligned": "CCCC",
+      "matches": "|..|"
+    },
+    {
+      "model": "CACA",
+      "native": "A",
+      "model_aligned": "CACA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "CACA",
+      "native": "C",
+      "model_aligned": "CACA",
+      "native_aligned": "C---",
+      "matches": "|   "
+    },
+    {
+      "model": "CACA",
+      "native": "AA",
+      "model_aligned": "CACA",
+      "native_aligned": "-A-A",
+      "matches": " | |"
+    },
+    {
+      "model": "CACA",
+      "native": "AC",
+      "model_aligned": "CACA",
+      "native_aligned": "-AC-",
+      "matches": " || "
+    },
+    {
+      "model": "CACA",
+      "native": "CA",
+      "model_aligned": "CACA",
+      "native_aligned": "--CA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CACA",
+      "native": "CC",
+      "model_aligned": "CACA",
+      "native_aligned": "C-C-",
+      "matches": "| | "
+    },
+    {
+      "model": "CACA",
+      "native": "AAA",
+      "model_aligned": "CACA",
+      "native_aligned": "-AAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CACA",
+      "native": "AAC",
+      "model_aligned": "CACA",
+      "native_aligned": "AAC-",
+      "matches": ".|| "
+    },
+    {
+      "model": "CACA",
+      "native": "ACA",
+      "model_aligned": "CACA",
+      "native_aligned": "-ACA",
+      "matches": " |||"
+    },
+    {
+      "model": "CACA",
+      "native": "ACC",
+      "model_aligned": "CACA",
+      "native_aligned": "-ACC",
+      "matches": " ||."
+    },
+    {
+      "model": "CACA",
+      "native": "CAA",
+      "model_aligned": "CACA",
+      "native_aligned": "CA-A",
+      "matches": "|| |"
+    },
+    {
+      "model": "CACA",
+      "native": "CAC",
+      "model_aligned": "CACA",
+      "native_aligned": "CAC-",
+      "matches": "||| "
+    },
+    {
+      "model": "CACA",
+      "native": "CCA",
+      "model_aligned": "CACA",
+      "native_aligned": "C-CA",
+      "matches": "| ||"
+    },
+    {
+      "model": "CACA",
+      "native": "CCC",
+      "model_aligned": "CACA",
+      "native_aligned": "C-CC",
+      "matches": "| |."
+    },
+    {
+      "model": "CACA",
+      "native": "AAAA",
+      "model_aligned": "CACA",
+      "native_aligned": "AAAA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CACA",
+      "native": "AAAC",
+      "model_aligned": "CACA",
+      "native_aligned": "AAAC",
+      "matches": ".|.."
+    },
+    {
+      "model": "CACA",
+      "native": "AACA",
+      "model_aligned": "CACA",
+      "native_aligned": "AACA",
+      "matches": ".|||"
+    },
+    {
+      "model": "CACA",
+      "native": "AACC",
+      "model_aligned": "CACA",
+      "native_aligned": "AACC",
+      "matches": ".||."
+    },
+    {
+      "model": "CACA",
+      "native": "ACAA",
+      "model_aligned": "-CACA",
+      "native_aligned": "ACA-A",
+      "matches": " || |"
+    },
+    {
+      "model": "CACA",
+      "native": "ACAC",
+      "model_aligned": "-CACA",
+      "native_aligned": "ACAC-",
+      "matches": " ||| "
+    },
+    {
+      "model": "CACA",
+      "native": "ACCA",
+      "model_aligned": "CACA",
+      "native_aligned": "ACCA",
+      "matches": "..||"
+    },
+    {
+      "model": "CACA",
+      "native": "ACCC",
+      "model_aligned": "CACA",
+      "native_aligned": "ACCC",
+      "matches": "..|."
+    },
+    {
+      "model": "CACA",
+      "native": "CAAA",
+      "model_aligned": "CACA",
+      "native_aligned": "CAAA",
+      "matches": "||.|"
+    },
+    {
+      "model": "CACA",
+      "native": "CAAC",
+      "model_aligned": "CACA",
+      "native_aligned": "CAAC",
+      "matches": "||.."
+    },
+    {
+      "model": "CACA",
+      "native": "CACA",
+      "model_aligned": "CACA",
+      "native_aligned": "CACA",
+      "matches": "||||"
+    },
+    {
+      "model": "CACA",
+      "native": "CACC",
+      "model_aligned": "CACA",
+      "native_aligned": "CACC",
+      "matches": "|||."
+    },
+    {
+      "model": "CACA",
+      "native": "CCAA",
+      "model_aligned": "CACA",
+      "native_aligned": "CCAA",
+      "matches": "|..|"
+    },
+    {
+      "model": "CACA",
+      "native": "CCAC",
+      "model_aligned": "-CACA",
+      "native_aligned": "CCAC-",
+      "matches": " ||| "
+    },
+    {
+      "model": "CACA",
+      "native": "CCCA",
+      "model_aligned": "CACA",
+      "native_aligned": "CCCA",
+      "matches": "|.||"
+    },
+    {
+      "model": "CACA",
+      "native": "CCCC",
+      "model_aligned": "CACA",
+      "native_aligned": "CCCC",
+      "matches": "|.|."
+    },
+    {
+      "model": "CACC",
+      "native": "A",
+      "model_aligned": "CACC",
+      "native_aligned": "-A--",
+      "matches": " |  "
+    },
+    {
+      "model": "CACC",
+      "native": "C",
+      "model_aligned": "CACC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "CACC",
+      "native": "AA",
+      "model_aligned": "CACC",
+      "native_aligned": "AA--",
+      "matches": ".|  "
+    },
+    {
+      "model": "CACC",
+      "native": "AC",
+      "model_aligned": "CACC",
+      "native_aligned": "-A-C",
+      "matches": " | |"
+    },
+    {
+      "model": "CACC",
+      "native": "CA",
+      "model_aligned": "CACC",
+      "native_aligned": "CA--",
+      "matches": "||  "
+    },
+    {
+      "model": "CACC",
+      "native": "CC",
+      "model_aligned": "CACC",
+      "native_aligned": "--CC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CACC",
+      "native": "AAA",
+      "model_aligned": "CACC",
+      "native_aligned": "-AAA",
+      "matches": " |.."
+    },
+    {
+      "model": "CACC",
+      "native": "AAC",
+      "model_aligned": "CACC",
+      "native_aligned": "-AAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CACC",
+      "native": "ACA",
+      "model_aligned": "CACC",
+      "native_aligned": "-ACA",
+      "matches": " ||."
+    },
+    {
+      "model": "CACC",
+      "native": "ACC",
+      "model_aligned": "CACC",
+      "native_aligned": "-ACC",
+      "matches": " |||"
+    },
+    {
+      "model": "CACC",
+      "native": "CAA",
+      "model_aligned": "CACC",
+      "native_aligned": "CA-A",
+      "matches": "|| ."
+    },
+    {
+      "model": "CACC",
+      "native": "CAC",
+      "model_aligned": "CACC",
+      "native_aligned": "CA-C",
+      "matches": "|| |"
+    },
+    {
+      "model": "CACC",
+      "native": "CCA",
+      "model_aligned": "CACC",
+      "native_aligned": "C-CA",
+      "matches": "| |."
+    },
+    {
+      "model": "CACC",
+      "native": "CCC",
+      "model_aligned": "CACC",
+      "native_aligned": "C-CC",
+      "matches": "| ||"
+    },
+    {
+      "model": "CACC",
+      "native": "AAAA",
+      "model_aligned": "CACC",
+      "native_aligned": "AAAA",
+      "matches": ".|.."
+    },
+    {
+      "model": "CACC",
+      "native": "AAAC",
+      "model_aligned": "CACC",
+      "native_aligned": "AAAC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CACC",
+      "native": "AACA",
+      "model_aligned": "CACC",
+      "native_aligned": "AACA",
+      "matches": ".||."
+    },
+    {
+      "model": "CACC",
+      "native": "AACC",
+      "model_aligned": "CACC",
+      "native_aligned": "AACC",
+      "matches": ".|||"
+    },
+    {
+      "model": "CACC",
+      "native": "ACAA",
+      "model_aligned": "-CACC",
+      "native_aligned": "ACA-A",
+      "matches": " || ."
+    },
+    {
+      "model": "CACC",
+      "native": "ACAC",
+      "model_aligned": "-CACC",
+      "native_aligned": "ACA-C",
+      "matches": " || |"
+    },
+    {
+      "model": "CACC",
+      "native": "ACCA",
+      "model_aligned": "CACC-",
+      "native_aligned": "-ACCA",
+      "matches": " ||| "
+    },
+    {
+      "model": "CACC",
+      "native": "ACCC",
+      "model_aligned": "CACC",
+      "native_aligned": "ACCC",
+      "matches": "..||"
+    },
+    {
+      "model": "CACC",
+      "native": "CAAA",
+      "model_aligned": "CACC",
+      "native_aligned": "CAAA",
+      "matches": "||.."
+    },
+    {
+      "model": "CACC",
+      "native": "CAAC",
+      "model_aligned": "CACC",
+      "native_aligned": "CAAC",
+      "matches": "||.|"
+    },
+    {
+      "model": "CACC",
+      "native": "CACA",
+      "model_aligned": "CACC",
+      "native_aligned": "CACA",
+      "matches": "|||."
+    },
+    {
+      "model": "CACC",
+      "native": "CACC",
+      "model_aligned": "CACC",
+      "native_aligned": "CACC",
+      "matches": "||||"
+    },
+    {
+      "model": "CACC",
+      "native": "CCAA",
+      "model_aligned": "CACC",
+      "native_aligned": "CCAA",
+      "matches": "|..."
+    },
+    {
+      "model": "CACC",
+      "native": "CCAC",
+      "model_aligned": "CACC",
+      "native_aligned": "CCAC",
+      "matches": "|..|"
+    },
+    {
+      "model": "CACC",
+      "native": "CCCA",
+      "model_aligned": "CACC",
+      "native_aligned": "CCCA",
+      "matches": "|.|."
+    },
+    {
+      "model": "CACC",
+      "native": "CCCC",
+      "model_aligned": "CACC",
+      "native_aligned": "CCCC",
+      "matches": "|.||"
+    },
+    {
+      "model": "CCAA",
+      "native": "A",
+      "model_aligned": "CCAA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "CCAA",
+      "native": "C",
+      "model_aligned": "CCAA",
+      "native_aligned": "C---",
+      "matches": "|   "
+    },
+    {
+      "model": "CCAA",
+      "native": "AA",
+      "model_aligned": "CCAA",
+      "native_aligned": "--AA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CCAA",
+      "native": "AC",
+      "model_aligned": "CCAA",
+      "native_aligned": "--AC",
+      "matches": "  |."
+    },
+    {
+      "model": "CCAA",
+      "native": "CA",
+      "model_aligned": "CCAA",
+      "native_aligned": "C--A",
+      "matches": "|  |"
+    },
+    {
+      "model": "CCAA",
+      "native": "CC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CC--",
+      "matches": "||  "
+    },
+    {
+      "model": "CCAA",
+      "native": "AAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "-AAA",
+      "matches": " .||"
+    },
+    {
+      "model": "CCAA",
+      "native": "AAC",
+      "model_aligned": "CCAA-",
+      "native_aligned": "--AAC",
+      "matches": "  || "
+    },
+    {
+      "model": "CCAA",
+      "native": "ACA",
+      "model_aligned": "CCAA",
+      "native_aligned": "AC-A",
+      "matches": ".| |"
+    },
+    {
+      "model": "CCAA",
+      "native": "ACC",
+      "model_aligned": "-CCAA",
+      "native_aligned": "ACC--",
+      "matches": " ||  "
+    },
+    {
+      "model": "CCAA",
+      "native": "CAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "-CAA",
+      "matches": " |||"
+    },
+    {
+      "model": "CCAA",
+      "native": "CAC",
+      "model_aligned": "CCAA",
+      "native_aligned": "-CAC",
+      "matches": " ||."
+    },
+    {
+      "model": "CCAA",
+      "native": "CCA",
+      "model_aligned": "CCAA",
+      "native_aligned": "CC-A",
+      "matches": "|| |"
+    },
+    {
+      "model": "CCAA",
+      "native": "CCC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CC-C",
+      "matches": "|| ."
+    },
+    {
+      "model": "CCAA",
+      "native": "AAAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "AAAA",
+      "matches": "..||"
+    },
+    {
+      "model": "CCAA",
+      "native": "AAAC",
+      "model_aligned": "CCAA",
+      "native_aligned": "AAAC",
+      "matches": "..|."
+    },
+    {
+      "model": "CCAA",
+      "native": "AACA",
+      "model_aligned": "CCAA",
+      "native_aligned": "AACA",
+      "matches": "...|"
+    },
+    {
+      "model": "CCAA",
+      "native": "AACC",
+      "model_aligned": "--CCAA",
+      "native_aligned": "AACC--",
+      "matches": "  ||  "
+    },
+    {
+      "model": "CCAA",
+      "native": "ACAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "ACAA",
+      "matches": ".|||"
+    },
+    {
+      "model": "CCAA",
+      "native": "ACAC",
+      "model_aligned": "CCAA",
+      "native_aligned": "ACAC",
+      "matches": ".||."
+    },
+    {
+      "model": "CCAA",
+      "native": "ACCA",
+      "model_aligned": "CCAA",
+      "native_aligned": "ACCA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CCAA",
+      "native": "ACCC",
+      "model_aligned": "CCAA",
+      "native_aligned": "ACCC",
+      "matches": ".|.."
+    },
+    {
+      "model": "CCAA",
+      "native": "CAAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "CAAA",
+      "matches": "|.||"
+    },
+    {
+      "model": "CCAA",
+      "native": "CAAC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CAAC",
+      "matches": "|.|."
+    },
+    {
+      "model": "CCAA",
+      "native": "CACA",
+      "model_aligned": "CCAA",
+      "native_aligned": "CACA",
+      "matches": "|..|"
+    },
+    {
+      "model": "CCAA",
+      "native": "CACC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CACC",
+      "matches": "|..."
+    },
+    {
+      "model": "CCAA",
+      "native": "CCAA",
+      "model_aligned": "CCAA",
+      "native_aligned": "CCAA",
+      "matches": "||||"
+    },
+    {
+      "model": "CCAA",
+      "native": "CCAC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CCAC",
+      "matches": "|||."
+    },
+    {
+      "model": "CCAA",
+      "native": "CCCA",
+      "model_aligned": "CCAA",
+      "native_aligned": "CCCA",
+      "matches": "||.|"
+    },
+    {
+      "model": "CCAA",
+      "native": "CCCC",
+      "model_aligned": "CCAA",
+      "native_aligned": "CCCC",
+      "matches": "||.."
+    },
+    {
+      "model": "CCAC",
+      "native": "A",
+      "model_aligned": "CCAC",
+      "native_aligned": "--A-",
+      "matches": "  | "
+    },
+    {
+      "model": "CCAC",
+      "native": "C",
+      "model_aligned": "CCAC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "CCAC",
+      "native": "AA",
+      "model_aligned": "CCAC",
+      "native_aligned": "--AA",
+      "matches": "  |."
+    },
+    {
+      "model": "CCAC",
+      "native": "AC",
+      "model_aligned": "CCAC",
+      "native_aligned": "--AC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CCAC",
+      "native": "CA",
+      "model_aligned": "CCAC",
+      "native_aligned": "-CA-",
+      "matches": " || "
+    },
+    {
+      "model": "CCAC",
+      "native": "CC",
+      "model_aligned": "CCAC",
+      "native_aligned": "C--C",
+      "matches": "|  |"
+    },
+    {
+      "model": "CCAC",
+      "native": "AAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "-AAA",
+      "matches": " .|."
+    },
+    {
+      "model": "CCAC",
+      "native": "AAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "-AAC",
+      "matches": " .||"
+    },
+    {
+      "model": "CCAC",
+      "native": "ACA",
+      "model_aligned": "CCAC",
+      "native_aligned": "ACA-",
+      "matches": ".|| "
+    },
+    {
+      "model": "CCAC",
+      "native": "ACC",
+      "model_aligned": "CCAC",
+      "native_aligned": "AC-C",
+      "matches": ".| |"
+    },
+    {
+      "model": "CCAC",
+      "native": "CAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "-CAA",
+      "matches": " ||."
+    },
+    {
+      "model": "CCAC",
+      "native": "CAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "-CAC",
+      "matches": " |||"
+    },
+    {
+      "model": "CCAC",
+      "native": "CCA",
+      "model_aligned": "CCAC",
+      "native_aligned": "CCA-",
+      "matches": "||| "
+    },
+    {
+      "model": "CCAC",
+      "native": "CCC",
+      "model_aligned": "CCAC",
+      "native_aligned": "CC-C",
+      "matches": "|| |"
+    },
+    {
+      "model": "CCAC",
+      "native": "AAAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "AAAA",
+      "matches": "..|."
+    },
+    {
+      "model": "CCAC",
+      "native": "AAAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "AAAC",
+      "matches": "..||"
+    },
+    {
+      "model": "CCAC",
+      "native": "AACA",
+      "model_aligned": "-CCAC",
+      "native_aligned": "AACA-",
+      "matches": " .|| "
+    },
+    {
+      "model": "CCAC",
+      "native": "AACC",
+      "model_aligned": "CCAC",
+      "native_aligned": "AACC",
+      "matches": "...|"
+    },
+    {
+      "model": "CCAC",
+      "native": "ACAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "ACAA",
+      "matches": ".||."
+    },
+    {
+      "model": "CCAC",
+      "native": "ACAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "ACAC",
+      "matches": ".|||"
+    },
+    {
+      "model": "CCAC",
+      "native": "ACCA",
+      "model_aligned": "-CCAC",
+      "native_aligned": "ACCA-",
+      "matches": " ||| "
+    },
+    {
+      "model": "CCAC",
+      "native": "ACCC",
+      "model_aligned": "CCAC",
+      "native_aligned": "ACCC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CCAC",
+      "native": "CAAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "CAAA",
+      "matches": "|.|."
+    },
+    {
+      "model": "CCAC",
+      "native": "CAAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "CAAC",
+      "matches": "|.||"
+    },
+    {
+      "model": "CCAC",
+      "native": "CACA",
+      "model_aligned": "C-CAC",
+      "native_aligned": "CACA-",
+      "matches": "| || "
+    },
+    {
+      "model": "CCAC",
+      "native": "CACC",
+      "model_aligned": "CCAC",
+      "native_aligned": "CACC",
+      "matches": "|..|"
+    },
+    {
+      "model": "CCAC",
+      "native": "CCAA",
+      "model_aligned": "CCAC",
+      "native_aligned": "CCAA",
+      "matches": "|||."
+    },
+    {
+      "model": "CCAC",
+      "native": "CCAC",
+      "model_aligned": "CCAC",
+      "native_aligned": "CCAC",
+      "matches": "||||"
+    },
+    {
+      "model": "CCAC",
+      "native": "CCCA",
+      "model_aligned": "CCAC",
+      "native_aligned": "CCCA",
+      "matches": "||.."
+    },
+    {
+      "model": "CCAC",
+      "native": "CCCC",
+      "model_aligned": "CCAC",
+      "native_aligned": "CCCC",
+      "matches": "||.|"
+    },
+    {
+      "model": "CCCA",
+      "native": "A",
+      "model_aligned": "CCCA",
+      "native_aligned": "---A",
+      "matches": "   |"
+    },
+    {
+      "model": "CCCA",
+      "native": "C",
+      "model_aligned": "CCCA",
+      "native_aligned": "C---",
+      "matches": "|   "
+    },
+    {
+      "model": "CCCA",
+      "native": "AA",
+      "model_aligned": "CCCA",
+      "native_aligned": "--AA",
+      "matches": "  .|"
+    },
+    {
+      "model": "CCCA",
+      "native": "AC",
+      "model_aligned": "CCCA",
+      "native_aligned": "AC--",
+      "matches": ".|  "
+    },
+    {
+      "model": "CCCA",
+      "native": "CA",
+      "model_aligned": "CCCA",
+      "native_aligned": "--CA",
+      "matches": "  ||"
+    },
+    {
+      "model": "CCCA",
+      "native": "CC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CC--",
+      "matches": "||  "
+    },
+    {
+      "model": "CCCA",
+      "native": "AAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "-AAA",
+      "matches": " ..|"
+    },
+    {
+      "model": "CCCA",
+      "native": "AAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "AAC-",
+      "matches": "..| "
+    },
+    {
+      "model": "CCCA",
+      "native": "ACA",
+      "model_aligned": "CCCA",
+      "native_aligned": "-ACA",
+      "matches": " .||"
+    },
+    {
+      "model": "CCCA",
+      "native": "ACC",
+      "model_aligned": "CCCA",
+      "native_aligned": "ACC-",
+      "matches": ".|| "
+    },
+    {
+      "model": "CCCA",
+      "native": "CAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "-CAA",
+      "matches": " |.|"
+    },
+    {
+      "model": "CCCA",
+      "native": "CAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CAC-",
+      "matches": "|.| "
+    },
+    {
+      "model": "CCCA",
+      "native": "CCA",
+      "model_aligned": "CCCA",
+      "native_aligned": "-CCA",
+      "matches": " |||"
+    },
+    {
+      "model": "CCCA",
+      "native": "CCC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CCC-",
+      "matches": "||| "
+    },
+    {
+      "model": "CCCA",
+      "native": "AAAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "AAAA",
+      "matches": "...|"
+    },
+    {
+      "model": "CCCA",
+      "native": "AAAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "AAAC",
+      "matches": "...."
+    },
+    {
+      "model": "CCCA",
+      "native": "AACA",
+      "model_aligned": "CCCA",
+      "native_aligned": "AACA",
+      "matches": "..||"
+    },
+    {
+      "model": "CCCA",
+      "native": "AACC",
+      "model_aligned": "CCCA",
+      "native_aligned": "AACC",
+      "matches": "..|."
+    },
+    {
+      "model": "CCCA",
+      "native": "ACAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "ACAA",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CCCA",
+      "native": "ACAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "ACAC",
+      "matches": ".|.."
+    },
+    {
+      "model": "CCCA",
+      "native": "ACCA",
+      "model_aligned": "CCCA",
+      "native_aligned": "ACCA",
+      "matches": ".|||"
+    },
+    {
+      "model": "CCCA",
+      "native": "ACCC",
+      "model_aligned": "CCCA",
+      "native_aligned": "ACCC",
+      "matches": ".||."
+    },
+    {
+      "model": "CCCA",
+      "native": "CAAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "CAAA",
+      "matches": "|..|"
+    },
+    {
+      "model": "CCCA",
+      "native": "CAAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CAAC",
+      "matches": "|..."
+    },
+    {
+      "model": "CCCA",
+      "native": "CACA",
+      "model_aligned": "CCCA",
+      "native_aligned": "CACA",
+      "matches": "|.||"
+    },
+    {
+      "model": "CCCA",
+      "native": "CACC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CACC",
+      "matches": "|.|."
+    },
+    {
+      "model": "CCCA",
+      "native": "CCAA",
+      "model_aligned": "CCCA",
+      "native_aligned": "CCAA",
+      "matches": "||.|"
+    },
+    {
+      "model": "CCCA",
+      "native": "CCAC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CCAC",
+      "matches": "||.."
+    },
+    {
+      "model": "CCCA",
+      "native": "CCCA",
+      "model_aligned": "CCCA",
+      "native_aligned": "CCCA",
+      "matches": "||||"
+    },
+    {
+      "model": "CCCA",
+      "native": "CCCC",
+      "model_aligned": "CCCA",
+      "native_aligned": "CCCC",
+      "matches": "|||."
+    },
+    {
+      "model": "CCCC",
+      "native": "A",
+      "model_aligned": "CCCC",
+      "native_aligned": "---A",
+      "matches": "   ."
+    },
+    {
+      "model": "CCCC",
+      "native": "C",
+      "model_aligned": "CCCC",
+      "native_aligned": "---C",
+      "matches": "   |"
+    },
+    {
+      "model": "CCCC",
+      "native": "AA",
+      "model_aligned": "CCCC",
+      "native_aligned": "--AA",
+      "matches": "  .."
+    },
+    {
+      "model": "CCCC",
+      "native": "AC",
+      "model_aligned": "CCCC",
+      "native_aligned": "--AC",
+      "matches": "  .|"
+    },
+    {
+      "model": "CCCC",
+      "native": "CA",
+      "model_aligned": "CCCC",
+      "native_aligned": "--CA",
+      "matches": "  |."
+    },
+    {
+      "model": "CCCC",
+      "native": "CC",
+      "model_aligned": "CCCC",
+      "native_aligned": "--CC",
+      "matches": "  ||"
+    },
+    {
+      "model": "CCCC",
+      "native": "AAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "-AAA",
+      "matches": " ..."
+    },
+    {
+      "model": "CCCC",
+      "native": "AAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "-AAC",
+      "matches": " ..|"
+    },
+    {
+      "model": "CCCC",
+      "native": "ACA",
+      "model_aligned": "CCCC",
+      "native_aligned": "-ACA",
+      "matches": " .|."
+    },
+    {
+      "model": "CCCC",
+      "native": "ACC",
+      "model_aligned": "CCCC",
+      "native_aligned": "-ACC",
+      "matches": " .||"
+    },
+    {
+      "model": "CCCC",
+      "native": "CAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "-CAA",
+      "matches": " |.."
+    },
+    {
+      "model": "CCCC",
+      "native": "CAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "-CAC",
+      "matches": " |.|"
+    },
+    {
+      "model": "CCCC",
+      "native": "CCA",
+      "model_aligned": "CCCC",
+      "native_aligned": "-CCA",
+      "matches": " ||."
+    },
+    {
+      "model": "CCCC",
+      "native": "CCC",
+      "model_aligned": "CCCC",
+      "native_aligned": "-CCC",
+      "matches": " |||"
+    },
+    {
+      "model": "CCCC",
+      "native": "AAAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "AAAA",
+      "matches": "...."
+    },
+    {
+      "model": "CCCC",
+      "native": "AAAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "AAAC",
+      "matches": "...|"
+    },
+    {
+      "model": "CCCC",
+      "native": "AACA",
+      "model_aligned": "CCCC",
+      "native_aligned": "AACA",
+      "matches": "..|."
+    },
+    {
+      "model": "CCCC",
+      "native": "AACC",
+      "model_aligned": "CCCC",
+      "native_aligned": "AACC",
+      "matches": "..||"
+    },
+    {
+      "model": "CCCC",
+      "native": "ACAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "ACAA",
+      "matches": ".|.."
+    },
+    {
+      "model": "CCCC",
+      "native": "ACAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "ACAC",
+      "matches": ".|.|"
+    },
+    {
+      "model": "CCCC",
+      "native": "ACCA",
+      "model_aligned": "CCCC",
+      "native_aligned": "ACCA",
+      "matches": ".||."
+    },
+    {
+      "model": "CCCC",
+      "native": "ACCC",
+      "model_aligned": "CCCC",
+      "native_aligned": "ACCC",
+      "matches": ".|||"
+    },
+    {
+      "model": "CCCC",
+      "native": "CAAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "CAAA",
+      "matches": "|..."
+    },
+    {
+      "model": "CCCC",
+      "native": "CAAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "CAAC",
+      "matches": "|..|"
+    },
+    {
+      "model": "CCCC",
+      "native": "CACA",
+      "model_aligned": "CCCC",
+      "native_aligned": "CACA",
+      "matches": "|.|."
+    },
+    {
+      "model": "CCCC",
+      "native": "CACC",
+      "model_aligned": "CCCC",
+      "native_aligned": "CACC",
+      "matches": "|.||"
+    },
+    {
+      "model": "CCCC",
+      "native": "CCAA",
+      "model_aligned": "CCCC",
+      "native_aligned": "CCAA",
+      "matches": "||.."
+    },
+    {
+      "model": "CCCC",
+      "native": "CCAC",
+      "model_aligned": "CCCC",
+      "native_aligned": "CCAC",
+      "matches": "||.|"
+    },
+    {
+      "model": "CCCC",
+      "native": "CCCA",
+      "model_aligned": "CCCC",
+      "native_aligned": "CCCA",
+      "matches": "|||."
+    },
+    {
+      "model": "CCCC",
+      "native": "CCCC",
+      "model_aligned": "CCCC",
+      "native_aligned": "CCCC",
+      "matches": "||||"
+    }
+  ]
+}

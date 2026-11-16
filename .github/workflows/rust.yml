@@ -1,0 +1,63 @@
+name: Rust CI
+
+on:
+  push:
+    branches: [master, main, rust-implementation, upstream-rust]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Linux x86_64
+            runner: ubuntu-22.04
+          - label: macOS x86_64
+            runner: macos-15-intel
+          - label: Windows x86_64
+            runner: windows-2022
+    defaults:
+      run:
+        working-directory: rust
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install stable Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - name: Cache dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust -> target
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+      - name: Lint
+        run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - name: Test
+        run: cargo test --locked --all-targets --all-features
+      - name: Build release executable
+        run: cargo build --locked --release
+      - name: CLI scoring smoke test (Unix)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          set -euo pipefail
+          output="$(target/release/DockQ ../examples/1A2K_r_l_b.model.pdb ../examples/1A2K_r_l_b.pdb --mapping AB:AB --short)"
+          printf '%s\n' "$output"
+          grep -q 'DockQ 0.943' <<<"$output"
+      - name: CLI scoring smoke test (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $output = (& target/release/DockQ.exe ../examples/1A2K_r_l_b.model.pdb ../examples/1A2K_r_l_b.pdb --mapping AB:AB --short | Out-String)
+          if ($LASTEXITCODE -ne 0) { throw "DockQ exited with $LASTEXITCODE" }
+          if ($output -notmatch 'DockQ 0\.943') { throw "Unexpected scoring output: $output" }
+          Write-Output $output
