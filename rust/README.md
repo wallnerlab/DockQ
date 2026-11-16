@@ -1,83 +1,75 @@
-# DockQ Rust (experimental)
+# DockQ Rust
 
-The Rust crate now provides a working command-line scorer and library for the
-main DockQ workflows. It remains experimental: the Python package is still the
-established distribution, and the Rust migration has not completed the full
-platform, compatibility, and release review gates. Do not treat this crate as a
-drop-in replacement for every Python API or input accepted by Biopython.
+DockQ Rust is a command-line program and Rust library for assessing protein,
+nucleic-acid, peptide, and small-molecule docking models. This contribution
+proposes it as an optional implementation alongside the Python package. It runs
+without Python at runtime and is not a replacement for the Python API.
 
-The CLI reads PDB and mmCIF coordinate files, including gzip-compressed files;
-scores protein and nucleic-acid interfaces, CAPRI peptide interfaces, and
-small-molecule interfaces; searches chain mappings; and writes text or JSON
-results. It runs without Python at runtime. Mapping search supports parallel
-workers while retaining deterministic candidate ordering.
+## Install a release binary
 
-## Build and test
+Independently maintained fork binaries are available from the
+[DockQ Rust v2.1.3 GitHub release](https://github.com/enriquead1/DockQ/releases/tag/rust-v2.1.3).
+Extract it, read BUILD-INFO.txt, and verify SHA256SUMS.txt before running the
+executable.
+
+Release bundles target Linux x86_64, macOS x86_64, and Windows x86_64. CI checks
+formatting, Clippy, tests, release builds, and a representative scoring example
+on all three operating systems. See TEST_REPORT.md for the latest results.
+
+## Build from source
 
 Use a stable Rust toolchain and the committed lockfile:
 
-```sh
-cargo build --locked --release --manifest-path rust/Cargo.toml
-cargo test --locked --manifest-path rust/Cargo.toml
-```
+    cargo build --locked --release --manifest-path rust/Cargo.toml
 
-The binary is `rust/target/release/DockQ` (`DockQ.exe` on Windows). Check its
-options with:
+Run formatting, lint, and tests from the repository root:
 
-```sh
-rust/target/release/DockQ --help
-```
+    cargo fmt --manifest-path rust/Cargo.toml --all -- --check
+    cargo clippy --locked --manifest-path rust/Cargo.toml --all-targets --all-features -- -D warnings
+    cargo test --locked --manifest-path rust/Cargo.toml --all-targets --all-features
 
-For a reproducible local build with dependencies already cached, add `--offline`
-to the Cargo commands.
+The binary is rust/target/release/DockQ on Linux and macOS and
+rust/target/release/DockQ.exe on Windows.
 
 ## Example
 
-Score the included 1A2K model against its native structure and constrain the
-mapping to model chains A and B against native chains A and B:
+    rust/target/release/DockQ \
+      examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb \
+      --mapping AB:AB --short
 
-```sh
-rust/target/release/DockQ \
-  examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb \
-  --mapping AB:AB --short
-```
+The mapping syntax is MODELCHAINS:NATIVECHAINS. Mapping currently accepts
+single-character chain identifiers in the CLI. Use --small_molecule to score
+hetero-residue chains and --json results.json to write structured output. Run
+DockQ --help for all options.
 
-The mapping syntax is `MODELCHAINS:NATIVECHAINS` and currently accepts
-single-character chain identifiers. Use `--small_molecule` to include
-hetero-residue chains and run ligand scoring. Use `--json results.json` to write
-structured output.
+## Scope and compatibility
 
-## Validation and known limits
+The CLI reads PDB and mmCIF coordinate files, including gzip-compressed files.
+It scores protein and nucleic-acid interfaces, CAPRI peptide interfaces, and
+small-molecule interfaces; searches chain mappings; and writes text or JSON
+results.
 
-`cargo test` includes focused tests and differential checks against the pinned
-Python/Cython corpus in `compat/reference.json`. Counts are checked exactly;
-RMSD fields are compared with an absolute tolerance of `1e-4` Å, and
-other floating-point metrics with `1e-5`. These tolerances describe the current
-test harness, not a guarantee for every structure or platform.
+The reference corpus checks integer counts exactly, RMSD values within 1e-4 Å,
+and other floating-point metrics within 1e-5. This is numerical agreement on the
+included cases, not bitwise identity or a guarantee for every structure accepted
+by Biopython. The recorded CLI comparison has three strict text differences:
+Python prints LRMSD 0.000 while Rust prints 0.001 for one interface whose
+values lie on opposite sides of the three-decimal rounding boundary. The
+underlying values differ by about 4.9e-6 Å. See MIGRATION_STATUS.md and
+../compat/CLI_ACCEPTANCE.md for details.
 
-The full [CLI comparison](../compat/CLI_ACCEPTANCE.md) passes numeric JSON
-comparisons but records three strict text failures caused by LRMSD rounding at
-three decimals. It also identifies Python's overwritten nested mapping diagnostics.
-See [MIGRATION_STATUS.md](MIGRATION_STATUS.md) for package delivery and acceptance.
+The Rust library uses native Rust data structures. Existing Python callers that
+pass Biopython objects are not supported by this CLI and are not preserved as a
+Rust API. Parser recovery and detailed diagnostics for malformed inputs can also
+differ from Biopython.
 
-The current validation does not establish full compatibility with all malformed
-files, metadata, or parser behavior available through Biopython. The CLI's
-legacy mapping syntax is limited to one-character chain IDs, even though the
-library preserves string chain IDs from mmCIF. Linux has been validated locally;
-macOS and Windows builds and runtime behavior require their own checks. Consult
-[RELEASE.md](RELEASE.md) for release status and platform validation.
+## Documentation
 
-For ligand symmetry matching, atom mappings index the filtered common-atom
-arrays. Element labels are filtered with coordinates; the Python reference
-passes unfiltered element labels when atom-name sets differ, so Rust avoids that
-legacy mismatch in this case.
+- Repository overview and quick start: ../README.md
+- Migration status and compatibility details: MIGRATION_STATUS.md
+- Cross-platform validation: TEST_REPORT.md
+- Release contents and workflow: RELEASE.md
+- Reproducible all-against-all benchmark: ../benchmarks/all_vs_all/BENCHMARK_FINDINGS.md
 
-The executable needs no Python interpreter or Python package at runtime. It is
-linked against the platform's normal system runtime libraries. Rust dependencies
-are listed in `Cargo.toml` and pinned by `Cargo.lock`.
-
-## License and scientific citation
-
-Redistribute the repository's MIT `LICENSE` with binaries. Third-party Rust
-dependency licenses also apply. Cite the DockQ v2 paper as described by the
-project's [citation guidance](../README.md#citing-dockq).
+If you use DockQ, cite the DockQ v2 paper at
+https://doi.org/10.1093/bioinformatics/btae586.

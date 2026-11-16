@@ -19,6 +19,21 @@ cd DockQ
 pip install .
 ```
 
+## Optional Rust implementation
+
+An experimental Rust CLI and library are available alongside the Python package.
+Build from the repository root with a stable Rust toolchain:
+
+```sh
+cargo build --locked --release --manifest-path rust/Cargo.toml
+rust/target/release/DockQ examples/1A2K_r_l_b.model.pdb examples/1A2K_r_l_b.pdb --mapping AB:AB --short
+```
+
+The executable runs without Python at runtime. See [the Rust guide](rust/README.md)
+for usage, [validation results](rust/TEST_REPORT.md), and known compatibility limits.
+It does not provide the Python/Biopython API or guarantee identical results for
+every input.
+
 ## Quick start
 
 After installing DockQ with `pip`, the `DockQ` binary will be in your path. Just run DockQ with:
